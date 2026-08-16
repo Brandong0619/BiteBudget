@@ -1,0 +1,55 @@
+# Handoff: Person A → Person B
+
+## What to import
+
+From the repo root (or with `PYTHONPATH` including the repo root):
+
+```python
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]  # adjust if needed
+sys.path.insert(0, str(ROOT / "data"))
+
+from recommender import recommend  # real engine
+# from recommender import stub_recommend  # hour-one stub if needed
+```
+
+Suggested plug-in in `backend/app/database.py` inside `fetch_recommendations` (after Supabase attempt / as local path):
+
+```python
+from recommender import recommend
+return recommend(budget=budget, goal=goal, lat=lat, lng=lng)
+```
+
+Keep Pydantic models in `backend/app/models.py` as the HTTP contract. `recommend()` returns plain dicts matching `RestaurantOption` / `GroceryOption` field names.
+
+## Contract
+
+See [`../../shared/contracts/recommend_api.md`](../../shared/contracts/recommend_api.md).
+
+```text
+recommend(budget, goal, lat, lng, radius_miles=5.0)
+  -> (restaurant_dict | None, grocery_dict | None)
+```
+
+- Tax: 8.25% applied inside the engine (`price_with_tax`)
+- Strict filter: `price_with_tax <= budget` and distance `<= radius_miles`
+- Goals: `gain_muscle` | `lose_weight` | `maintain`
+
+## Datasets
+
+- `data/datasets/locations.json`
+- `data/datasets/meals.json` (≥150 curated combinations)
+- `data/datasets/eval_cases.json`
+
+Prices are SA estimates with `estimate_as_of` metadata. Always show a demo disclaimer.
+
+## Stub → real
+
+- Stub: `recommender.stub_recommend` (fixed Chipotle + H-E-B pair)
+- Real (default export): `recommender.recommend`
+
+## Non-goals for Person A
+
+Expo, Mapbox UI, CORS, hosting, Supabase RPC — those stay with B/C.

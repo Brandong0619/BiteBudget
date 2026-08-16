@@ -1,0 +1,19 @@
+{
+  "goals": [
+    {
+      "id": "gain_muscle",
+      "label": "Gain muscle",
+      "description": "High protein, calorie-dense options"
+    },
+    {
+      "id": "lose_weight",
+      "label": "Lose weight",
+      "description": "Lower calorie, high protein picks"
+    },
+    {
+      "id": "maintain",
+      "label": "Maintain",
+      "description": "Balanced macros within your budget"
+    }
+  ]
+}

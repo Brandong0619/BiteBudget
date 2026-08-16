@@ -2,18 +2,36 @@
 node_modules/
 __pycache__/
 *.py[cod]
+*$py.class
 .venv/
 venv/
 env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
 
-# Environment
+# Environment / secrets — never commit real keys
 .env
-.env.local
+.env.*
+!.env.example
+**/.env
+**/.env.local
+*.pem
+*.key
+credentials.json
+service-account*.json
+secrets/
 
 # Build
 dist/
 build/
-*.egg-info/
+.expo/
+web-build/
+tmp/
+
+# Logs
+*.log
 
 # IDE
 .vscode/

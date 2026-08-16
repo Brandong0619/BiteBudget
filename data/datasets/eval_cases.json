@@ -1,0 +1,214 @@
+{
+  "cases": [
+    {
+      "id": "downtown_muscle_8",
+      "budget": 8.0,
+      "goal": "gain_muscle",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 8.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "downtown_lose_8",
+      "budget": 8.0,
+      "goal": "lose_weight",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 8.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "downtown_maintain_8",
+      "budget": 8.0,
+      "goal": "maintain",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 8.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "downtown_muscle_4",
+      "budget": 4.0,
+      "goal": "gain_muscle",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 4.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "downtown_lose_4",
+      "budget": 4.0,
+      "goal": "lose_weight",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 4.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "downtown_maintain_12",
+      "budget": 12.0,
+      "goal": "maintain",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 12.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "alamo_heights_muscle_12",
+      "budget": 12.0,
+      "goal": "gain_muscle",
+      "lat": 29.4678,
+      "lng": -98.4634,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 12.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "alamo_heights_lose_12",
+      "budget": 12.0,
+      "goal": "lose_weight",
+      "lat": 29.4678,
+      "lng": -98.4634,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 12.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "utsa_muscle_10",
+      "budget": 10.0,
+      "goal": "gain_muscle",
+      "lat": 29.5831,
+      "lng": -98.6198,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 10.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "utsa_lose_10",
+      "budget": 10.0,
+      "goal": "lose_weight",
+      "lat": 29.5831,
+      "lng": -98.6198,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 10.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "pearl_maintain_8",
+      "budget": 8.0,
+      "goal": "maintain",
+      "lat": 29.4421,
+      "lng": -98.4803,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 8.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "southside_muscle_8",
+      "budget": 8.0,
+      "goal": "gain_muscle",
+      "lat": 29.3856,
+      "lng": -98.4612,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 8.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "medical_lose_8",
+      "budget": 8.0,
+      "goal": "lose_weight",
+      "lat": 29.5102,
+      "lng": -98.5755,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 8.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "tiny_budget_2",
+      "budget": 2.0,
+      "goal": "maintain",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": false,
+        "max_price_with_tax": 2.0,
+        "max_distance_miles": 5.0
+      }
+    },
+    {
+      "id": "muscle_vs_lose_protein_signal",
+      "budget": 12.0,
+      "goal": "gain_muscle",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 12.0,
+        "max_distance_miles": 5.0,
+        "min_protein_if_restaurant": 20
+      }
+    },
+    {
+      "id": "lose_weight_calorie_signal",
+      "budget": 12.0,
+      "goal": "lose_weight",
+      "lat": 29.4241,
+      "lng": -98.4936,
+      "radius_miles": 5.0,
+      "expect": {
+        "at_least_one": true,
+        "max_price_with_tax": 12.0,
+        "max_distance_miles": 5.0,
+        "max_calories_if_restaurant": 600
+      }
+    }
+  ]
+}

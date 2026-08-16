@@ -1,0 +1,18 @@
+{
+  "tax_rate": 0.0825,
+  "default_radius_miles": 5.0,
+  "default_lat": 29.4241,
+  "default_lng": -98.4936,
+  "city": "San Antonio, TX",
+  "restaurant_chains": [
+    "Chipotle",
+    "Whataburger",
+    "Panda Express",
+    "Torchy's Tacos",
+    "McDonald's",
+    "Taco Cabana",
+    "Chick-fil-A",
+    "Subway"
+  ],
+  "grocery_chain": "H-E-B"
+}
