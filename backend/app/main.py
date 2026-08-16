@@ -12,7 +12,7 @@ from app.models import (
 )
 
 app = FastAPI(
-    title="BrokeBite API",
+    title="BiteBudget API",
     description="Budget-conscious meal recommendations for San Antonio",
     version="0.1.0",
 )

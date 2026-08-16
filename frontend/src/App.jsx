@@ -133,7 +133,7 @@ export default function App() {
       <header className="hero">
         <div className="hero-content">
           <p className="eyebrow">San Antonio · H-E-B powered</p>
-          <h1>BrokeBite</h1>
+          <h1>Bite Budget</h1>
           <p className="tagline">
             Tell us your budget. We tell you exactly what to eat — restaurant order or H-E-B fix — right now.
           </p>
