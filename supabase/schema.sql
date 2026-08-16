@@ -1,4 +1,4 @@
--- BrokeBite Supabase schema for San Antonio MVP
+-- Bite Budget Supabase schema for San Antonio MVP
 -- Run in Supabase SQL Editor
 
 CREATE EXTENSION IF NOT EXISTS cube;

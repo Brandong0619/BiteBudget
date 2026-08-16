@@ -1,6 +1,6 @@
 # Backend (Person B)
 
-FastAPI service for BrokeBite.
+FastAPI service for Bite Budget.
 
 - App entry: `app.main:app`
 - Env: copy `.env.example` → `.env` (never commit real keys)

@@ -1,6 +1,6 @@
 # Frontend (Person C)
 
-Vite React web UI for BrokeBite (current). Expo mobile client and narrative docs are placeholders under:
+Vite React web UI for Bite Budget (current). Expo mobile client and narrative docs are placeholders under:
 
 - [`expo/`](expo/) — future Expo app
 - [`narrative/`](narrative/) — demo script, Section 4 answers, slides

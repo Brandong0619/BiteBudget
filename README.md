@@ -1,4 +1,4 @@
-# BrokeBite
+# Bite Budget
 
 **Google Maps meets MyFitnessPal — for when you're broke.**
 
