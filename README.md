@@ -17,7 +17,7 @@ Tell the app how much cash you have and your health goal. Get two options in San
 | `supabase/` | Person B | Schema / seed (repo root) |
 | `frontend/` | Person C — Frontend + Narrative | Vite UI + `expo/` and `narrative/` placeholders |
 
-See [`shared/docs/team_roles.md`](shared/docs/team_roles.md) and [`data/PROGRESS.md`](data/PROGRESS.md).
+See [`shared/docs/team_roles.md`](shared/docs/team_roles.md).
 
 ## Stack
 

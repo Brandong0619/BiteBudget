@@ -33,6 +33,9 @@ tmp/
 # Logs
 *.log
 
+# Local agent notes (not for GitHub)
+data/PROGRESS.md
+
 # IDE
 .vscode/
 .idea/
