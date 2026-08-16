@@ -49,6 +49,7 @@ Prices are SA estimates with `estimate_as_of` metadata. Always show a demo discl
 
 - Stub: `recommender.stub_recommend` (fixed Chipotle + H-E-B pair)
 - Real (default export): `recommender.recommend`
+- Debug (Person A / eval only): `recommender.recommend_with_debug` returns winners plus `top_restaurants` / `top_groceries` (top 3). Public `recommend()` API is unchanged for Person B.
 
 ## Non-goals for Person A
 

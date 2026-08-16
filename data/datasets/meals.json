@@ -1,12 +1,14 @@
 {
   "estimate_as_of": "2026-08-16",
-  "count": 160,
+  "count": 150,
+  "restaurant_count": 95,
+  "grocery_count": 55,
   "meals": [
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Chicken bowl \u2014 white rice, pinto beans, fajita veggies, salsa, NO cheese/sour cream",
-      "price": 9.25,
+      "order": "Chicken bowl \u2014 white rice, pinto, fajita, salsa, NO cheese/sour cream",
+      "price": 9.8,
       "calories": 520,
       "protein_g": 42,
       "carbs_g": 58,
@@ -16,61 +18,14 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Chicken bowl \u2014 white rice, pinto beans, fajita veggies, salsa, NO cheese/sour cream + light guacamole",
-      "price": 11.7,
-      "calories": 600,
-      "protein_g": 43,
-      "carbs_g": 62,
-      "fat_g": 19,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken bowl \u2014 white rice, pinto beans, fajita veggies, salsa, NO cheese/sour cream \u2014 no beans",
-      "price": 9.25,
-      "calories": 460,
-      "protein_g": 38,
-      "carbs_g": 40,
-      "fat_g": 12,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken bowl \u2014 white rice, pinto beans, fajita veggies, salsa, NO cheese/sour cream \u2014 extra salsa, no sour cream",
-      "price": 9.25,
-      "calories": 480,
-      "protein_g": 42,
-      "carbs_g": 56,
-      "fat_g": 8,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken salad \u2014 lettuce, black beans, fajita veggies, salsa, NO rice",
-      "price": 9.25,
+      "order": "Chicken salad \u2014 lettuce, black beans, fajita, salsa, NO rice",
+      "price": 9.8,
       "calories": 340,
       "protein_g": 38,
       "carbs_g": 22,
@@ -80,121 +35,46 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Chicken salad \u2014 lettuce, black beans, fajita veggies, salsa, NO rice + light guacamole",
-      "price": 11.7,
-      "calories": 420,
-      "protein_g": 39,
-      "carbs_g": 26,
-      "fat_g": 17,
+      "order": "Double chicken bowl \u2014 no rice, beans, fajita, salsa, lettuce",
+      "price": 12.5,
+      "calories": 450,
+      "protein_g": 64,
+      "carbs_g": 28,
+      "fat_g": 14,
       "goals": [
-        "lose_weight",
-        "maintain"
+        "gain_muscle",
+        "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Chicken salad \u2014 lettuce, black beans, fajita veggies, salsa, NO rice \u2014 no beans",
-      "price": 9.25,
-      "calories": 280,
-      "protein_g": 34,
-      "carbs_g": 4,
-      "fat_g": 10,
-      "goals": [
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken salad \u2014 lettuce, black beans, fajita veggies, salsa, NO rice \u2014 extra salsa, no sour cream",
-      "price": 9.25,
-      "calories": 300,
-      "protein_g": 38,
-      "carbs_g": 20,
-      "fat_g": 6,
-      "goals": [
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Steak bowl \u2014 brown rice, black beans, fajita veggies, tomato salsa",
-      "price": 10.35,
-      "calories": 560,
-      "protein_g": 45,
-      "carbs_g": 55,
+      "order": "Steak bowl \u2014 brown rice, black beans, fajita, tomato salsa",
+      "price": 11.5,
+      "calories": 540,
+      "protein_g": 42,
+      "carbs_g": 52,
       "fat_g": 16,
       "goals": [
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026"
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Steak bowl \u2014 brown rice, black beans, fajita veggies, tomato salsa + light guacamole",
-      "price": 12.8,
-      "calories": 640,
-      "protein_g": 46,
-      "carbs_g": 59,
-      "fat_g": 23,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Steak bowl \u2014 brown rice, black beans, fajita veggies, tomato salsa \u2014 no beans",
-      "price": 10.35,
-      "calories": 500,
-      "protein_g": 41,
-      "carbs_g": 37,
-      "fat_g": 16,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Steak bowl \u2014 brown rice, black beans, fajita veggies, tomato salsa \u2014 extra salsa, no sour cream",
-      "price": 10.35,
-      "calories": 520,
-      "protein_g": 45,
-      "carbs_g": 53,
-      "fat_g": 12,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Carnitas burrito \u2014 flour tortilla, white rice, pinto, cheese, salsa",
-      "price": 9.75,
+      "order": "Carnitas burrito \u2014 flour, white rice, pinto, cheese, salsa",
+      "price": 10.5,
       "calories": 720,
       "protein_g": 38,
       "carbs_g": 78,
@@ -204,234 +84,138 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026"
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Carnitas burrito \u2014 flour tortilla, white rice, pinto, cheese, salsa + light guacamole",
-      "price": 12.2,
-      "calories": 800,
-      "protein_g": 39,
-      "carbs_g": 82,
-      "fat_g": 35,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Carnitas burrito \u2014 flour tortilla, white rice, pinto, cheese, salsa \u2014 no beans",
-      "price": 9.75,
-      "calories": 660,
-      "protein_g": 34,
+      "order": "Sofritas bowl \u2014 brown rice, black beans, fajita, salsa",
+      "price": 9.8,
+      "calories": 470,
+      "protein_g": 20,
       "carbs_g": 60,
-      "fat_g": 28,
+      "fat_g": 14,
       "goals": [
-        "gain_muscle",
-        "maintain"
+        "maintain",
+        "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026"
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Carnitas burrito \u2014 flour tortilla, white rice, pinto, cheese, salsa \u2014 extra salsa, no sour cream",
-      "price": 9.75,
-      "calories": 680,
-      "protein_g": 38,
-      "carbs_g": 76,
-      "fat_g": 24,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Veggie bowl \u2014 sofritas, brown rice, black beans, fajita, salsa",
-      "price": 8.95,
+      "order": "Chicken tacos x3 \u2014 corn, chicken, salsa, lettuce",
+      "price": 10.5,
       "calories": 480,
-      "protein_g": 22,
-      "carbs_g": 62,
+      "protein_g": 39,
+      "carbs_g": 42,
       "fat_g": 14,
       "goals": [
-        "maintain",
-        "lose_weight"
+        "gain_muscle",
+        "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026"
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Veggie bowl \u2014 sofritas, brown rice, black beans, fajita, salsa + light guacamole",
-      "price": 11.4,
+      "order": "Barbacoa bowl \u2014 white rice, pinto, salsa, no cheese",
+      "price": 11.5,
       "calories": 560,
-      "protein_g": 23,
-      "carbs_g": 66,
-      "fat_g": 21,
+      "protein_g": 40,
+      "carbs_g": 58,
+      "fat_g": 16,
       "goals": [
-        "maintain",
-        "lose_weight"
+        "gain_muscle",
+        "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026"
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Veggie bowl \u2014 sofritas, brown rice, black beans, fajita, salsa \u2014 no beans",
-      "price": 8.95,
-      "calories": 420,
-      "protein_g": 18,
-      "carbs_g": 44,
-      "fat_g": 14,
+      "order": "Chicken bowl \u2014 brown rice, black beans, tomato salsa only",
+      "price": 9.8,
+      "calories": 500,
+      "protein_g": 40,
+      "carbs_g": 55,
+      "fat_g": 11,
       "goals": [
-        "maintain",
-        "lose_weight"
+        "gain_muscle",
+        "lose_weight",
+        "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chipotle_public_nutrition_2026"
     },
     {
       "location_chain": "Chipotle",
       "type": "restaurant",
-      "order": "Veggie bowl \u2014 sofritas, brown rice, black beans, fajita, salsa \u2014 extra salsa, no sour cream",
-      "price": 8.95,
-      "calories": 440,
-      "protein_g": 22,
-      "carbs_g": 60,
+      "order": "Veggie bowl \u2014 sofritas, no rice, extra lettuce + salsa",
+      "price": 9.8,
+      "calories": 280,
+      "protein_g": 16,
+      "carbs_g": 24,
+      "fat_g": 12,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chipotle_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Chipotle",
+      "type": "restaurant",
+      "order": "Chicken burrito \u2014 no cheese, no sour cream, extra veggies",
+      "price": 9.8,
+      "calories": 650,
+      "protein_g": 40,
+      "carbs_g": 80,
+      "fat_g": 16,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chipotle_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Chipotle",
+      "type": "restaurant",
+      "order": "Steak salad \u2014 no rice, beans, fajita, salsa",
+      "price": 11.5,
+      "calories": 360,
+      "protein_g": 36,
+      "carbs_g": 24,
+      "fat_g": 12,
+      "goals": [
+        "lose_weight",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chipotle_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Whataburger",
+      "type": "restaurant",
+      "order": "Grilled chicken sandwich \u2014 no mayo, extra lettuce & tomato",
+      "price": 6.59,
+      "calories": 390,
+      "protein_g": 30,
+      "carbs_g": 40,
       "fat_g": 10,
       "goals": [
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken burrito bowl \u2014 double chicken, no rice, extra lettuce",
-      "price": 11.5,
-      "calories": 410,
-      "protein_g": 64,
-      "carbs_g": 18,
-      "fat_g": 12,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken burrito bowl \u2014 double chicken, no rice, extra lettuce + light guacamole",
-      "price": 13.95,
-      "calories": 490,
-      "protein_g": 65,
-      "carbs_g": 22,
-      "fat_g": 19,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken burrito bowl \u2014 double chicken, no rice, extra lettuce \u2014 no beans",
-      "price": 11.5,
-      "calories": 350,
-      "protein_g": 60,
-      "carbs_g": 0,
-      "fat_g": 12,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chipotle",
-      "type": "restaurant",
-      "order": "Chicken burrito bowl \u2014 double chicken, no rice, extra lettuce \u2014 extra salsa, no sour cream",
-      "price": 11.5,
-      "calories": 370,
-      "protein_g": 64,
-      "carbs_g": 16,
-      "fat_g": 8,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken sandwich \u2014 no mayo, add extra lettuce & tomato",
-      "price": 6.49,
-      "calories": 380,
-      "protein_g": 32,
-      "carbs_g": 38,
-      "fat_g": 9,
-      "goals": [
         "gain_muscle",
         "maintain",
         "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken sandwich \u2014 no mayo, add extra lettuce & tomato + water only",
-      "price": 6.49,
-      "calories": 380,
-      "protein_g": 32,
-      "carbs_g": 38,
-      "fat_g": 9,
-      "goals": [
-        "gain_muscle",
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken sandwich \u2014 no mayo, add extra lettuce & tomato \u2014 hold bun toppings",
-      "price": 6.49,
-      "calories": 340,
-      "protein_g": 32,
-      "carbs_g": 32,
-      "fat_g": 7,
-      "goals": [
-        "gain_muscle",
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Whataburger",
@@ -447,132 +231,25 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Whataburger",
       "type": "restaurant",
-      "order": "Whataburger Jr. \u2014 plain, no cheese, no mayo + water only",
-      "price": 4.29,
-      "calories": 310,
-      "protein_g": 16,
-      "carbs_g": 28,
-      "fat_g": 14,
-      "goals": [
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Whataburger Jr. \u2014 plain, no cheese, no mayo \u2014 hold bun toppings",
-      "price": 4.29,
-      "calories": 270,
-      "protein_g": 16,
-      "carbs_g": 22,
-      "fat_g": 12,
-      "goals": [
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Apple & cranberry chicken sandwich \u2014 no mayo",
-      "price": 7.29,
-      "calories": 420,
-      "protein_g": 30,
-      "carbs_g": 44,
-      "fat_g": 12,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Apple & cranberry chicken sandwich \u2014 no mayo + water only",
-      "price": 7.29,
-      "calories": 420,
-      "protein_g": 30,
-      "carbs_g": 44,
-      "fat_g": 12,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Apple & cranberry chicken sandwich \u2014 no mayo \u2014 hold bun toppings",
-      "price": 7.29,
-      "calories": 380,
-      "protein_g": 30,
-      "carbs_g": 38,
+      "order": "Grilled chicken salad \u2014 dressing on the side",
+      "price": 7.49,
+      "calories": 290,
+      "protein_g": 34,
+      "carbs_g": 12,
       "fat_g": 10,
       "goals": [
-        "maintain"
+        "lose_weight",
+        "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken melt \u2014 no cheese, mustard only",
-      "price": 6.99,
-      "calories": 400,
-      "protein_g": 34,
-      "carbs_g": 36,
-      "fat_g": 11,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken melt \u2014 no cheese, mustard only + water only",
-      "price": 6.99,
-      "calories": 400,
-      "protein_g": 34,
-      "carbs_g": 36,
-      "fat_g": 11,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken melt \u2014 no cheese, mustard only \u2014 hold bun toppings",
-      "price": 6.99,
-      "calories": 360,
-      "protein_g": 34,
-      "carbs_g": 30,
-      "fat_g": 9,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Whataburger",
@@ -587,37 +264,7 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Double meat Whataburger Jr. \u2014 no mayo + water only",
-      "price": 6.49,
-      "calories": 430,
-      "protein_g": 28,
-      "carbs_g": 28,
-      "fat_g": 20,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Double meat Whataburger Jr. \u2014 no mayo \u2014 hold bun toppings",
-      "price": 6.49,
-      "calories": 390,
-      "protein_g": 28,
-      "carbs_g": 22,
-      "fat_g": 18,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026"
     },
     {
       "location_chain": "Whataburger",
@@ -632,130 +279,117 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026"
     },
     {
       "location_chain": "Whataburger",
       "type": "restaurant",
-      "order": "Fish sandwich \u2014 no tartar, add tomato + water only",
-      "price": 5.79,
-      "calories": 390,
-      "protein_g": 18,
-      "carbs_g": 40,
+      "order": "Apple & cranberry chicken sandwich \u2014 no mayo",
+      "price": 7.29,
+      "calories": 420,
+      "protein_g": 30,
+      "carbs_g": 44,
+      "fat_g": 12,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "whataburger_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Whataburger",
+      "type": "restaurant",
+      "order": "Grilled chicken melt \u2014 mustard only, no cheese",
+      "price": 6.99,
+      "calories": 380,
+      "protein_g": 34,
+      "carbs_g": 36,
+      "fat_g": 10,
+      "goals": [
+        "gain_muscle",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "whataburger_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Whataburger",
+      "type": "restaurant",
+      "order": "Breakfast taquito pair \u2014 egg & sausage",
+      "price": 4.99,
+      "calories": 450,
+      "protein_g": 20,
+      "carbs_g": 32,
+      "fat_g": 24,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "whataburger_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Whataburger",
+      "type": "restaurant",
+      "order": "Whatachick'n sandwich \u2014 no mayo",
+      "price": 5.99,
+      "calories": 480,
+      "protein_g": 27,
+      "carbs_g": 46,
+      "fat_g": 18,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "whataburger_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Whataburger",
+      "type": "restaurant",
+      "order": "Chicken fajita taco",
+      "price": 4.99,
+      "calories": 420,
+      "protein_g": 22,
+      "carbs_g": 38,
       "fat_g": 16,
       "goals": [
-        "maintain"
+        "maintain",
+        "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026"
     },
     {
       "location_chain": "Whataburger",
       "type": "restaurant",
-      "order": "Fish sandwich \u2014 no tartar, add tomato \u2014 hold bun toppings",
-      "price": 5.79,
-      "calories": 350,
+      "order": "Jr. + side garden salad \u2014 light dressing",
+      "price": 6.5,
+      "calories": 360,
       "protein_g": 18,
-      "carbs_g": 34,
+      "carbs_g": 30,
       "fat_g": 14,
       "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken salad \u2014 light vinaigrette on side",
-      "price": 7.49,
-      "calories": 290,
-      "protein_g": 34,
-      "carbs_g": 12,
-      "fat_g": 10,
-      "goals": [
         "lose_weight",
-        "gain_muscle"
+        "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026"
     },
     {
       "location_chain": "Whataburger",
       "type": "restaurant",
-      "order": "Grilled chicken salad \u2014 light vinaigrette on side + water only",
-      "price": 7.49,
-      "calories": 290,
-      "protein_g": 34,
-      "carbs_g": 12,
-      "fat_g": 10,
+      "order": "Grilled chicken sandwich \u2014 mustard only",
+      "price": 6.59,
+      "calories": 400,
+      "protein_g": 30,
+      "carbs_g": 42,
+      "fat_g": 11,
       "goals": [
+        "gain_muscle",
         "lose_weight",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Grilled chicken salad \u2014 light vinaigrette on side \u2014 hold bun toppings",
-      "price": 7.49,
-      "calories": 250,
-      "protein_g": 34,
-      "carbs_g": 8,
-      "fat_g": 8,
-      "goals": [
-        "lose_weight",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Breakfast taquito pair \u2014 egg & sausage (all-day if available)",
-      "price": 4.99,
-      "calories": 450,
-      "protein_g": 20,
-      "carbs_g": 32,
-      "fat_g": 24,
-      "goals": [
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Breakfast taquito pair \u2014 egg & sausage (all-day if available) + water only",
-      "price": 4.99,
-      "calories": 450,
-      "protein_g": 20,
-      "carbs_g": 32,
-      "fat_g": 24,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Whataburger",
-      "type": "restaurant",
-      "order": "Breakfast taquito pair \u2014 egg & sausage (all-day if available) \u2014 hold bun toppings",
-      "price": 4.99,
-      "calories": 410,
-      "protein_g": 20,
-      "carbs_g": 26,
-      "fat_g": 22,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "whataburger_public_nutrition_2026"
     },
     {
       "location_chain": "Panda Express",
@@ -771,28 +405,13 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Panda Express",
       "type": "restaurant",
-      "order": "Bowl \u2014 grilled teriyaki chicken + super greens (no rice) \u2014 no sauce drizzle",
-      "price": 8.99,
-      "calories": 310,
-      "protein_g": 36,
-      "carbs_g": 10,
-      "fat_g": 10,
-      "goals": [
-        "lose_weight",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Panda Express",
-      "type": "restaurant",
-      "order": "Plate \u2014 black pepper chicken + chow mein (half portion rice)",
+      "order": "Plate \u2014 black pepper chicken + chow mein half rice",
       "price": 9.49,
       "calories": 680,
       "protein_g": 34,
@@ -807,22 +426,7 @@
     {
       "location_chain": "Panda Express",
       "type": "restaurant",
-      "order": "Plate \u2014 black pepper chicken + chow mein (half portion rice) \u2014 no sauce drizzle",
-      "price": 9.49,
-      "calories": 630,
-      "protein_g": 34,
-      "carbs_g": 64,
-      "fat_g": 18,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Panda Express",
-      "type": "restaurant",
-      "order": "Bowl \u2014 string bean chicken breast + mixed veggies",
+      "order": "Bowl \u2014 string bean chicken + mixed veggies",
       "price": 8.99,
       "calories": 420,
       "protein_g": 28,
@@ -838,43 +442,12 @@
     {
       "location_chain": "Panda Express",
       "type": "restaurant",
-      "order": "Bowl \u2014 string bean chicken breast + mixed veggies \u2014 no sauce drizzle",
-      "price": 8.99,
-      "calories": 370,
-      "protein_g": 28,
-      "carbs_g": 27,
-      "fat_g": 12,
-      "goals": [
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Panda Express",
-      "type": "restaurant",
-      "order": "Bowl \u2014 broccli beef + super greens",
+      "order": "Bowl \u2014 broccoli beef + super greens",
       "price": 9.29,
       "calories": 390,
       "protein_g": 26,
       "carbs_g": 28,
       "fat_g": 18,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Panda Express",
-      "type": "restaurant",
-      "order": "Bowl \u2014 broccli beef + super greens \u2014 no sauce drizzle",
-      "price": 9.29,
-      "calories": 340,
-      "protein_g": 26,
-      "carbs_g": 20,
-      "fat_g": 14,
       "goals": [
         "maintain"
       ],
@@ -899,22 +472,7 @@
     {
       "location_chain": "Panda Express",
       "type": "restaurant",
-      "order": "Plate \u2014 orange chicken + fried rice (share half) \u2014 no sauce drizzle",
-      "price": 9.49,
-      "calories": 690,
-      "protein_g": 28,
-      "carbs_g": 80,
-      "fat_g": 24,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Panda Express",
-      "type": "restaurant",
-      "order": "Bowl \u2014 mushroom chicken + steamed rice half",
+      "order": "Bowl \u2014 mushroom chicken + half steamed rice",
       "price": 8.79,
       "calories": 480,
       "protein_g": 24,
@@ -929,22 +487,7 @@
     {
       "location_chain": "Panda Express",
       "type": "restaurant",
-      "order": "Bowl \u2014 mushroom chicken + steamed rice half \u2014 no sauce drizzle",
-      "price": 8.79,
-      "calories": 430,
-      "protein_g": 24,
-      "carbs_g": 44,
-      "fat_g": 12,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Panda Express",
-      "type": "restaurant",
-      "order": "Super greens side + grilled teriyaki a la carte",
+      "order": "A la carte grilled teriyaki + super greens",
       "price": 7.5,
       "calories": 280,
       "protein_g": 30,
@@ -955,20 +498,82 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "Panda Express",
+      "type": "restaurant",
+      "order": "Bowl \u2014 honey walnut shrimp + veggies (no rice)",
+      "price": 10.49,
+      "calories": 520,
+      "protein_g": 18,
+      "carbs_g": 40,
+      "fat_g": 28,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
       "macros_source": "chain_nutrition_estimate"
     },
     {
       "location_chain": "Panda Express",
       "type": "restaurant",
-      "order": "Super greens side + grilled teriyaki a la carte \u2014 no sauce drizzle",
-      "price": 7.5,
-      "calories": 230,
-      "protein_g": 30,
-      "carbs_g": 6,
-      "fat_g": 6,
+      "order": "Bowl \u2014 kung pao chicken + super greens",
+      "price": 8.99,
+      "calories": 400,
+      "protein_g": 26,
+      "carbs_g": 30,
+      "fat_g": 16,
       "goals": [
-        "lose_weight",
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Panda Express",
+      "type": "restaurant",
+      "order": "Plate \u2014 grilled teriyaki + broccoli beef + rice half",
+      "price": 11.49,
+      "calories": 720,
+      "protein_g": 42,
+      "carbs_g": 70,
+      "fat_g": 22,
+      "goals": [
         "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Panda Express",
+      "type": "restaurant",
+      "order": "Bowl \u2014 black pepper chicken + mixed veggies",
+      "price": 8.99,
+      "calories": 410,
+      "protein_g": 28,
+      "carbs_g": 32,
+      "fat_g": 16,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Panda Express",
+      "type": "restaurant",
+      "order": "Side chow mein + grilled chicken a la carte",
+      "price": 8.5,
+      "calories": 500,
+      "protein_g": 28,
+      "carbs_g": 55,
+      "fat_g": 16,
+      "goals": [
+        "maintain"
       ],
       "estimate_as_of": "2026-08-16",
       "macros_source": "chain_nutrition_estimate"
@@ -976,7 +581,7 @@
     {
       "location_chain": "Torchy's Tacos",
       "type": "restaurant",
-      "order": "Mr. Orange \u2014 corn tortilla, add grilled chicken, no queso",
+      "order": "Mr. Orange \u2014 corn, add grilled chicken, no queso",
       "price": 5.5,
       "calories": 420,
       "protein_g": 28,
@@ -987,28 +592,30 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Torchy's Tacos",
       "type": "restaurant",
-      "order": "Mr. Orange \u2014 corn tortilla, add grilled chicken, no queso + side beans",
-      "price": 7.0,
-      "calories": 540,
+      "order": "Two street tacos \u2014 grilled chicken, corn, onion cilantro",
+      "price": 7.5,
+      "calories": 440,
       "protein_g": 34,
-      "carbs_g": 50,
-      "fat_g": 20,
+      "carbs_g": 36,
+      "fat_g": 16,
       "goals": [
         "gain_muscle",
-        "maintain"
+        "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Torchy's Tacos",
       "type": "restaurant",
-      "order": "Trailer Park \u2014 flour tortilla, no queso, add pico",
+      "order": "Trailer Park \u2014 flour, no queso, add pico",
       "price": 5.25,
       "calories": 480,
       "protein_g": 22,
@@ -1023,43 +630,12 @@
     {
       "location_chain": "Torchy's Tacos",
       "type": "restaurant",
-      "order": "Trailer Park \u2014 flour tortilla, no queso, add pico + side beans",
-      "price": 6.75,
-      "calories": 600,
-      "protein_g": 28,
-      "carbs_g": 54,
-      "fat_g": 26,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Torchy's Tacos",
-      "type": "restaurant",
-      "order": "Democrat \u2014 corn, scrambled egg, beans (breakfast)",
+      "order": "Democrat \u2014 corn, egg, beans (breakfast)",
       "price": 4.75,
       "calories": 360,
       "protein_g": 18,
       "carbs_g": 34,
       "fat_g": 14,
-      "goals": [
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Torchy's Tacos",
-      "type": "restaurant",
-      "order": "Democrat \u2014 corn, scrambled egg, beans (breakfast) + side beans",
-      "price": 6.25,
-      "calories": 480,
-      "protein_g": 24,
-      "carbs_g": 52,
-      "fat_g": 16,
       "goals": [
         "maintain",
         "lose_weight"
@@ -1085,53 +661,6 @@
     {
       "location_chain": "Torchy's Tacos",
       "type": "restaurant",
-      "order": "Independent \u2014 corn, avocado, no queso + side beans",
-      "price": 6.5,
-      "calories": 510,
-      "protein_g": 18,
-      "carbs_g": 48,
-      "fat_g": 24,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Torchy's Tacos",
-      "type": "restaurant",
-      "order": "Two street tacos \u2014 grilled chicken, corn, onion cilantro",
-      "price": 7.5,
-      "calories": 440,
-      "protein_g": 34,
-      "carbs_g": 36,
-      "fat_g": 16,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Torchy's Tacos",
-      "type": "restaurant",
-      "order": "Two street tacos \u2014 grilled chicken, corn, onion cilantro + side beans",
-      "price": 9.0,
-      "calories": 560,
-      "protein_g": 40,
-      "carbs_g": 54,
-      "fat_g": 18,
-      "goals": [
-        "gain_muscle",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Torchy's Tacos",
-      "type": "restaurant",
       "order": "Brushfire \u2014 corn, no jalape\u00f1o ranch",
       "price": 5.5,
       "calories": 410,
@@ -1147,13 +676,94 @@
     {
       "location_chain": "Torchy's Tacos",
       "type": "restaurant",
-      "order": "Brushfire \u2014 corn, no jalape\u00f1o ranch + side beans",
-      "price": 7.0,
-      "calories": 530,
+      "order": "Two bean & cheese street tacos \u2014 corn",
+      "price": 4.5,
+      "calories": 380,
+      "protein_g": 14,
+      "carbs_g": 44,
+      "fat_g": 14,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "Torchy's Tacos",
+      "type": "restaurant",
+      "order": "Soft taco \u2014 grilled chicken, corn, pico only",
+      "price": 4.25,
+      "calories": 280,
+      "protein_g": 22,
+      "carbs_g": 24,
+      "fat_g": 10,
+      "goals": [
+        "lose_weight",
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Torchy's Tacos",
+      "type": "restaurant",
+      "order": "Breakfast taco \u2014 egg & potato, corn",
+      "price": 3.75,
+      "calories": 300,
+      "protein_g": 12,
+      "carbs_g": 32,
+      "fat_g": 12,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Torchy's Tacos",
+      "type": "restaurant",
+      "order": "Two soft tacos \u2014 barbacoa, corn, onion cilantro",
+      "price": 8.0,
+      "calories": 460,
       "protein_g": 30,
-      "carbs_g": 52,
+      "carbs_g": 34,
       "fat_g": 20,
       "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Torchy's Tacos",
+      "type": "restaurant",
+      "order": "Mr. Orange + side beans",
+      "price": 7.0,
+      "calories": 540,
+      "protein_g": 34,
+      "carbs_g": 50,
+      "fat_g": 20,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Torchy's Tacos",
+      "type": "restaurant",
+      "order": "Veggie taco \u2014 corn, beans, pico, no queso",
+      "price": 3.95,
+      "calories": 260,
+      "protein_g": 10,
+      "carbs_g": 36,
+      "fat_g": 8,
+      "goals": [
+        "lose_weight",
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
@@ -1173,23 +783,8 @@
         "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "McChicken \u2014 no mayo + apple slices",
-      "price": 4.29,
-      "calories": 335,
-      "protein_g": 14,
-      "carbs_g": 45,
-      "fat_g": 10,
-      "goals": [
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "McDonald's",
@@ -1205,23 +800,8 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "Egg McMuffin \u2014 no butter + apple slices",
-      "price": 5.49,
-      "calories": 325,
-      "protein_g": 17,
-      "carbs_g": 38,
-      "fat_g": 12,
-      "goals": [
-        "maintain",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "McDonald's",
@@ -1237,23 +817,8 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "6-pc Chicken McNuggets \u2014 no sauce + apple slices",
-      "price": 4.99,
-      "calories": 285,
-      "protein_g": 14,
-      "carbs_g": 24,
-      "fat_g": 15,
-      "goals": [
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "McDonald's",
@@ -1263,21 +828,6 @@
       "calories": 320,
       "protein_g": 16,
       "carbs_g": 38,
-      "fat_g": 10,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "Filet-O-Fish \u2014 no tartar, add lettuce + apple slices",
-      "price": 5.79,
-      "calories": 355,
-      "protein_g": 16,
-      "carbs_g": 47,
       "fat_g": 10,
       "goals": [
         "maintain"
@@ -1298,52 +848,8 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "Sausage burrito \u2014 no cheese + apple slices",
-      "price": 3.79,
-      "calories": 325,
-      "protein_g": 12,
-      "carbs_g": 33,
-      "fat_g": 16,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "Grilled Onion Cheddar burger \u2014 no cheese, mustard",
-      "price": 4.29,
-      "calories": 340,
-      "protein_g": 18,
-      "carbs_g": 32,
-      "fat_g": 14,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "Grilled Onion Cheddar burger \u2014 no cheese, mustard + apple slices",
-      "price": 5.29,
-      "calories": 375,
-      "protein_g": 18,
-      "carbs_g": 41,
-      "fat_g": 14,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "McDonald's",
@@ -1353,22 +859,6 @@
       "calories": 320,
       "protein_g": 32,
       "carbs_g": 22,
-      "fat_g": 10,
-      "goals": [
-        "lose_weight",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "McDonald's",
-      "type": "restaurant",
-      "order": "Southwest grilled chicken salad \u2014 light dressing + apple slices",
-      "price": 8.49,
-      "calories": 355,
-      "protein_g": 32,
-      "carbs_g": 31,
       "fat_g": 10,
       "goals": [
         "lose_weight",
@@ -1396,18 +886,81 @@
     {
       "location_chain": "McDonald's",
       "type": "restaurant",
-      "order": "Double hamburger \u2014 ketchup mustard only + apple slices",
-      "price": 5.59,
-      "calories": 425,
-      "protein_g": 24,
-      "carbs_g": 41,
-      "fat_g": 18,
+      "order": "McDouble \u2014 no cheese, mustard ketchup",
+      "price": 3.79,
+      "calories": 350,
+      "protein_g": 18,
+      "carbs_g": 32,
+      "fat_g": 14,
       "goals": [
-        "gain_muscle",
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
       "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "McDonald's",
+      "type": "restaurant",
+      "order": "4-pc McNuggets \u2014 no sauce",
+      "price": 2.99,
+      "calories": 170,
+      "protein_g": 9,
+      "carbs_g": 10,
+      "fat_g": 10,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "McDonald's",
+      "type": "restaurant",
+      "order": "Egg White Delight McMuffin",
+      "price": 4.79,
+      "calories": 250,
+      "protein_g": 17,
+      "carbs_g": 28,
+      "fat_g": 8,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "McDonald's",
+      "type": "restaurant",
+      "order": "Bacon ranch grilled chicken salad \u2014 light",
+      "price": 7.99,
+      "calories": 320,
+      "protein_g": 34,
+      "carbs_g": 14,
+      "fat_g": 12,
+      "goals": [
+        "lose_weight",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "McDonald's",
+      "type": "restaurant",
+      "order": "Hamburger \u2014 plain",
+      "price": 2.49,
+      "calories": 250,
+      "protein_g": 12,
+      "carbs_g": 30,
+      "fat_g": 9,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Taco Cabana",
@@ -1424,29 +977,13 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Taco Cabana",
       "type": "restaurant",
-      "order": "2 grilled chicken soft tacos \u2014 corn, no cheese \u2014 salsa verde instead of cream",
-      "price": 5.49,
-      "calories": 350,
-      "protein_g": 30,
-      "carbs_g": 34,
-      "fat_g": 9,
-      "goals": [
-        "gain_muscle",
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Taco Cabana",
-      "type": "restaurant",
-      "order": "Bean & cheese taco \u2014 corn, no cheese extra beans",
+      "order": "Bean & cheese taco \u2014 corn, extra beans no cheese",
       "price": 2.99,
       "calories": 280,
       "protein_g": 12,
@@ -1457,85 +994,8 @@
         "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Taco Cabana",
-      "type": "restaurant",
-      "order": "Bean & cheese taco \u2014 corn, no cheese extra beans \u2014 salsa verde instead of cream",
-      "price": 2.99,
-      "calories": 250,
-      "protein_g": 12,
-      "carbs_g": 36,
-      "fat_g": 5,
-      "goals": [
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Taco Cabana",
-      "type": "restaurant",
-      "order": "Chicken flauta plate \u2014 skip cream, add pico",
-      "price": 7.99,
-      "calories": 520,
-      "protein_g": 28,
-      "carbs_g": 42,
-      "fat_g": 22,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Taco Cabana",
-      "type": "restaurant",
-      "order": "Chicken flauta plate \u2014 skip cream, add pico \u2014 salsa verde instead of cream",
-      "price": 7.99,
-      "calories": 490,
-      "protein_g": 28,
-      "carbs_g": 42,
-      "fat_g": 19,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Taco Cabana",
-      "type": "restaurant",
-      "order": "Breakfast taco \u2014 egg & potato, corn",
-      "price": 2.79,
-      "calories": 260,
-      "protein_g": 10,
-      "carbs_g": 28,
-      "fat_g": 12,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Taco Cabana",
-      "type": "restaurant",
-      "order": "Breakfast taco \u2014 egg & potato, corn \u2014 salsa verde instead of cream",
-      "price": 2.79,
-      "calories": 230,
-      "protein_g": 10,
-      "carbs_g": 28,
-      "fat_g": 9,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Taco Cabana",
@@ -1546,22 +1006,6 @@
       "protein_g": 14,
       "carbs_g": 22,
       "fat_g": 16,
-      "goals": [
-        "maintain",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Taco Cabana",
-      "type": "restaurant",
-      "order": "Breakfast taco \u2014 egg & bacon, corn, no cheese \u2014 salsa verde instead of cream",
-      "price": 3.29,
-      "calories": 270,
-      "protein_g": 14,
-      "carbs_g": 22,
-      "fat_g": 13,
       "goals": [
         "maintain",
         "gain_muscle"
@@ -1588,12 +1032,12 @@
     {
       "location_chain": "Taco Cabana",
       "type": "restaurant",
-      "order": "Grilled steak soft taco \u2014 corn, onion cilantro \u2014 salsa verde instead of cream",
-      "price": 3.79,
-      "calories": 260,
-      "protein_g": 18,
-      "carbs_g": 24,
-      "fat_g": 9,
+      "order": "Chicken flauta plate \u2014 skip cream, add pico",
+      "price": 7.99,
+      "calories": 520,
+      "protein_g": 28,
+      "carbs_g": 42,
+      "fat_g": 22,
       "goals": [
         "gain_muscle",
         "maintain"
@@ -1620,12 +1064,74 @@
     {
       "location_chain": "Taco Cabana",
       "type": "restaurant",
-      "order": "Tortilla soup cup + side rice \u2014 salsa verde instead of cream",
-      "price": 5.49,
+      "order": "3 breakfast tacos \u2014 egg & bean, corn",
+      "price": 7.5,
+      "calories": 540,
+      "protein_g": 24,
+      "carbs_g": 60,
+      "fat_g": 20,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Taco Cabana",
+      "type": "restaurant",
+      "order": "Grilled chicken soft taco \u2014 corn, pico only",
+      "price": 2.99,
+      "calories": 220,
+      "protein_g": 18,
+      "carbs_g": 18,
+      "fat_g": 8,
+      "goals": [
+        "lose_weight",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Taco Cabana",
+      "type": "restaurant",
+      "order": "Steak & egg breakfast taco \u2014 corn",
+      "price": 3.49,
       "calories": 310,
       "protein_g": 16,
-      "carbs_g": 40,
-      "fat_g": 7,
+      "carbs_g": 24,
+      "fat_g": 14,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Taco Cabana",
+      "type": "restaurant",
+      "order": "2 soft tacos \u2014 ground beef, corn, lettuce tomato",
+      "price": 5.49,
+      "calories": 420,
+      "protein_g": 24,
+      "carbs_g": 36,
+      "fat_g": 18,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Taco Cabana",
+      "type": "restaurant",
+      "order": "Chicken tortilla soup bowl",
+      "price": 6.49,
+      "calories": 380,
+      "protein_g": 22,
+      "carbs_g": 36,
+      "fat_g": 12,
       "goals": [
         "maintain",
         "lose_weight"
@@ -1637,35 +1143,19 @@
       "location_chain": "Chick-fil-A",
       "type": "restaurant",
       "order": "Grilled chicken sandwich \u2014 no butter on bun",
-      "price": 7.29,
+      "price": 6.79,
       "calories": 390,
-      "protein_g": 33,
-      "carbs_g": 44,
-      "fat_g": 8,
+      "protein_g": 28,
+      "carbs_g": 45,
+      "fat_g": 11,
       "goals": [
         "gain_muscle",
         "lose_weight",
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chick-fil-A",
-      "type": "restaurant",
-      "order": "Grilled chicken sandwich \u2014 no butter on bun + fruit cup",
-      "price": 9.79,
-      "calories": 450,
-      "protein_g": 34,
-      "carbs_g": 59,
-      "fat_g": 8,
-      "goals": [
-        "gain_muscle",
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Chick-fil-A",
@@ -1681,28 +1171,30 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Chick-fil-A",
       "type": "restaurant",
-      "order": "Grilled nuggets 8-ct \u2014 no sauce + fruit cup",
+      "order": "Grilled nuggets 12-ct \u2014 no sauce",
       "price": 8.99,
-      "calories": 190,
-      "protein_g": 26,
-      "carbs_g": 16,
-      "fat_g": 3,
+      "calories": 200,
+      "protein_g": 38,
+      "carbs_g": 2,
+      "fat_g": 4.5,
       "goals": [
-        "lose_weight",
-        "gain_muscle"
+        "gain_muscle",
+        "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Chick-fil-A",
       "type": "restaurant",
-      "order": "Cool Wrap \u2014 no avocado lime ranch, sauce on side",
+      "order": "Cool Wrap \u2014 sauce on the side",
       "price": 9.49,
       "calories": 350,
       "protein_g": 37,
@@ -1713,23 +1205,7 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chick-fil-A",
-      "type": "restaurant",
-      "order": "Cool Wrap \u2014 no avocado lime ranch, sauce on side + fruit cup",
-      "price": 11.99,
-      "calories": 410,
-      "protein_g": 38,
-      "carbs_g": 43,
-      "fat_g": 10,
-      "goals": [
-        "lose_weight",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026"
     },
     {
       "location_chain": "Chick-fil-A",
@@ -1745,53 +1221,7 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chick-fil-A",
-      "type": "restaurant",
-      "order": "Cobb salad \u2014 no bacon, light dressing + fruit cup",
-      "price": 12.99,
-      "calories": 480,
-      "protein_g": 37,
-      "carbs_g": 33,
-      "fat_g": 20,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chick-fil-A",
-      "type": "restaurant",
-      "order": "Spicy chicken sandwich \u2014 no pickles mayo",
-      "price": 6.49,
-      "calories": 450,
-      "protein_g": 28,
-      "carbs_g": 46,
-      "fat_g": 18,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Chick-fil-A",
-      "type": "restaurant",
-      "order": "Spicy chicken sandwich \u2014 no pickles mayo + fruit cup",
-      "price": 8.99,
-      "calories": 510,
-      "protein_g": 29,
-      "carbs_g": 61,
-      "fat_g": 18,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026"
     },
     {
       "location_chain": "Chick-fil-A",
@@ -1808,82 +1238,112 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026",
+      "pitch_wow": true
     },
     {
       "location_chain": "Chick-fil-A",
       "type": "restaurant",
-      "order": "Egg White Grill + fruit cup",
-      "price": 7.99,
-      "calories": 350,
-      "protein_g": 27,
+      "order": "Spicy chicken sandwich \u2014 no pickles mayo",
+      "price": 6.49,
+      "calories": 450,
+      "protein_g": 28,
       "carbs_g": 46,
-      "fat_g": 7,
+      "fat_g": 18,
       "goals": [
-        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chickfila_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Chick-fil-A",
+      "type": "restaurant",
+      "order": "Grilled chicken club \u2014 no cheese bacon light",
+      "price": 9.29,
+      "calories": 430,
+      "protein_g": 36,
+      "carbs_g": 42,
+      "fat_g": 12,
+      "goals": [
         "gain_muscle",
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026"
     },
     {
       "location_chain": "Chick-fil-A",
       "type": "restaurant",
-      "order": "Grilled nuggets 12-ct",
+      "order": "Market salad \u2014 grilled filet, light vinaigrette",
+      "price": 10.19,
+      "calories": 340,
+      "protein_g": 28,
+      "carbs_g": 28,
+      "fat_g": 12,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chickfila_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Chick-fil-A",
+      "type": "restaurant",
+      "order": "Chick-n-Minis 4-ct",
+      "price": 4.79,
+      "calories": 360,
+      "protein_g": 16,
+      "carbs_g": 36,
+      "fat_g": 14,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chickfila_public_nutrition_2026"
+    },
+    {
+      "location_chain": "Chick-fil-A",
+      "type": "restaurant",
+      "order": "Grilled nuggets 8-ct + fruit cup",
       "price": 8.99,
-      "calories": 200,
-      "protein_g": 38,
-      "carbs_g": 2,
-      "fat_g": 4.5,
+      "calories": 190,
+      "protein_g": 26,
+      "carbs_g": 16,
+      "fat_g": 3,
       "goals": [
-        "gain_muscle",
-        "lose_weight"
+        "lose_weight",
+        "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026"
     },
     {
       "location_chain": "Chick-fil-A",
       "type": "restaurant",
-      "order": "Grilled nuggets 12-ct + fruit cup",
-      "price": 11.49,
-      "calories": 260,
-      "protein_g": 39,
-      "carbs_g": 17,
-      "fat_g": 4.5,
+      "order": "Spicy southwest salad \u2014 no creamy dressing",
+      "price": 10.49,
+      "calories": 380,
+      "protein_g": 30,
+      "carbs_g": 28,
+      "fat_g": 14,
       "goals": [
-        "gain_muscle",
-        "lose_weight"
+        "lose_weight",
+        "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chickfila_public_nutrition_2026"
     },
     {
       "location_chain": "Subway",
       "type": "restaurant",
-      "order": "6-inch Turkey Breast \u2014 wheat, lots of veggies, mustard",
+      "order": "6-inch Turkey Breast \u2014 wheat, veggies, mustard",
       "price": 6.49,
       "calories": 280,
       "protein_g": 18,
       "carbs_g": 40,
       "fat_g": 3.5,
-      "goals": [
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Subway",
-      "type": "restaurant",
-      "order": "6-inch Turkey Breast \u2014 wheat, lots of veggies, mustard \u2014 no oil/salt",
-      "price": 6.49,
-      "calories": 260,
-      "protein_g": 18,
-      "carbs_g": 40,
-      "fat_g": 2.5,
       "goals": [
         "lose_weight",
         "maintain"
@@ -1905,23 +1365,25 @@
         "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Subway",
       "type": "restaurant",
-      "order": "6-inch Oven Roasted Chicken \u2014 wheat, no cheese, vinaigrette \u2014 no oil/salt",
-      "price": 6.99,
-      "calories": 300,
-      "protein_g": 24,
-      "carbs_g": 42,
-      "fat_g": 4,
+      "order": "Protein Bowl \u2014 turkey, no bread, double meat",
+      "price": 8.49,
+      "calories": 220,
+      "protein_g": 32,
+      "carbs_g": 10,
+      "fat_g": 6,
       "goals": [
-        "gain_muscle",
-        "lose_weight"
+        "lose_weight",
+        "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
     },
     {
       "location_chain": "Subway",
@@ -1941,43 +1403,12 @@
     {
       "location_chain": "Subway",
       "type": "restaurant",
-      "order": "6-inch Tuna \u2014 wheat, light mayo, veggies \u2014 no oil/salt",
-      "price": 6.49,
-      "calories": 400,
-      "protein_g": 18,
-      "carbs_g": 40,
-      "fat_g": 19,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Subway",
-      "type": "restaurant",
       "order": "6-inch Veggie Delite \u2014 wheat, double veggies",
       "price": 5.49,
       "calories": 230,
       "protein_g": 8,
       "carbs_g": 40,
       "fat_g": 2.5,
-      "goals": [
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Subway",
-      "type": "restaurant",
-      "order": "6-inch Veggie Delite \u2014 wheat, double veggies \u2014 no oil/salt",
-      "price": 5.49,
-      "calories": 210,
-      "protein_g": 8,
-      "carbs_g": 40,
-      "fat_g": 2,
       "goals": [
         "lose_weight",
         "maintain"
@@ -2004,43 +1435,12 @@
     {
       "location_chain": "Subway",
       "type": "restaurant",
-      "order": "6-inch Black Forest Ham \u2014 wheat, mustard \u2014 no oil/salt",
-      "price": 6.29,
-      "calories": 270,
-      "protein_g": 18,
-      "carbs_g": 42,
-      "fat_g": 3,
-      "goals": [
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Subway",
-      "type": "restaurant",
       "order": "Footlong Turkey \u2014 wheat, no cheese",
       "price": 10.49,
       "calories": 560,
       "protein_g": 36,
       "carbs_g": 80,
       "fat_g": 7,
-      "goals": [
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate"
-    },
-    {
-      "location_chain": "Subway",
-      "type": "restaurant",
-      "order": "Footlong Turkey \u2014 wheat, no cheese \u2014 no oil/salt",
-      "price": 10.49,
-      "calories": 540,
-      "protein_g": 36,
-      "carbs_g": 80,
-      "fat_g": 6,
       "goals": [
         "gain_muscle"
       ],
@@ -2066,14 +1466,15 @@
     {
       "location_chain": "Subway",
       "type": "restaurant",
-      "order": "6-inch Sweet Onion Chicken Teriyaki \u2014 wheat \u2014 no oil/salt",
-      "price": 7.49,
-      "calories": 350,
-      "protein_g": 25,
-      "carbs_g": 52,
-      "fat_g": 3.5,
+      "order": "6-inch Rotisserie-Style Chicken \u2014 wheat, no cheese",
+      "price": 7.29,
+      "calories": 310,
+      "protein_g": 26,
+      "carbs_g": 40,
+      "fat_g": 5,
       "goals": [
         "gain_muscle",
+        "lose_weight",
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
@@ -2082,15 +1483,30 @@
     {
       "location_chain": "Subway",
       "type": "restaurant",
-      "order": "Protein Bowl \u2014 turkey, no bread, double meat",
-      "price": 8.49,
-      "calories": 220,
-      "protein_g": 32,
-      "carbs_g": 10,
-      "fat_g": 6,
+      "order": "Footlong Oven Roasted Chicken \u2014 wheat, veggies",
+      "price": 11.49,
+      "calories": 640,
+      "protein_g": 48,
+      "carbs_g": 84,
+      "fat_g": 10,
       "goals": [
-        "lose_weight",
         "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "chain_nutrition_estimate",
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "Subway",
+      "type": "restaurant",
+      "order": "6-inch B.L.T. \u2014 wheat, light mayo",
+      "price": 5.99,
+      "calories": 340,
+      "protein_g": 14,
+      "carbs_g": 38,
+      "fat_g": 14,
+      "goals": [
+        "maintain"
       ],
       "estimate_as_of": "2026-08-16",
       "macros_source": "chain_nutrition_estimate"
@@ -2098,11 +1514,11 @@
     {
       "location_chain": "Subway",
       "type": "restaurant",
-      "order": "Protein Bowl \u2014 turkey, no bread, double meat \u2014 no oil/salt",
+      "order": "Protein Bowl \u2014 chicken, spinach, vinaigrette",
       "price": 8.49,
       "calories": 200,
-      "protein_g": 32,
-      "carbs_g": 10,
+      "protein_g": 30,
+      "carbs_g": 8,
       "fat_g": 5,
       "goals": [
         "lose_weight",
@@ -2125,20 +1541,21 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B dozen large eggs ($2.89)",
         "Fresh spinach 10oz ($2.49)",
         "H-E-B black beans 15oz ($0.89)"
       ],
-      "recipe": "Scramble 3 eggs with spinach. Heat black beans. Makes 4 servings \u2014 ~$1.57/meal, 5 min.",
+      "recipe": "Scramble 3 eggs with spinach; heat beans. 4 servings ~$1.57.",
       "prep_minutes": 5,
-      "per_serving_price": 1.57
+      "per_serving_price": 1.57,
+      "pitch_wow": true
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Protein Wrap Fix \u2014 rotisserie chicken + tortillas + salsa",
+      "order": "Protein Wrap Fix \u2014 rotisserie + tortillas + salsa",
       "price": 12.26,
       "calories": 320,
       "protein_g": 32,
@@ -2149,20 +1566,21 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B rotisserie chicken ($7.98)",
         "Whole wheat tortillas 8ct ($2.29)",
         "H-E-B salsa 16oz ($1.99)"
       ],
-      "recipe": "Shred chicken, wrap with salsa. Makes 4 wraps \u2014 ~$3.07/wrap, 3 min each.",
+      "recipe": "Shred chicken, wrap with salsa. 4 wraps ~$3.07.",
       "prep_minutes": 3,
-      "per_serving_price": 3.07
+      "per_serving_price": 3.07,
+      "pitch_wow": true
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Budget Cut Bowl \u2014 tuna + microwave rice + broccoli",
+      "order": "Budget Cut Bowl \u2014 tuna + mic rice + broccoli",
       "price": 4.76,
       "calories": 410,
       "protein_g": 32,
@@ -2174,20 +1592,21 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
-        "Chicken of the Sea tuna 5oz x2 ($1.98)",
+        "Tuna 5oz x2 ($1.98)",
         "H-E-B microwavable rice ($1.49)",
         "Frozen broccoli 12oz ($1.29)"
       ],
-      "recipe": "Microwave rice & broccoli, mix with tuna. Makes 2 bowls \u2014 ~$2.38/bowl, 5 min.",
+      "recipe": "Microwave rice & broccoli, mix tuna. 2 bowls ~$2.38.",
       "prep_minutes": 5,
-      "per_serving_price": 2.38
+      "per_serving_price": 2.38,
+      "pitch_wow": true
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Light & Lean \u2014 Greek yogurt + banana + peanut butter",
+      "order": "Light & Lean \u2014 Greek yogurt + banana + PB",
       "price": 7.67,
       "calories": 340,
       "protein_g": 22,
@@ -2198,20 +1617,21 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B plain Greek yogurt 32oz ($3.99)",
-        "Banana bunch ($0.69)",
-        "H-E-B natural PB 16oz ($2.99)"
+        "Banana ($0.69)",
+        "H-E-B natural PB ($2.99)"
       ],
-      "recipe": "1 cup yogurt + 1 banana + 1 tbsp PB. Makes 4 servings \u2014 ~$1.92/meal, 2 min.",
+      "recipe": "Yogurt + banana + 1 tbsp PB. 4 servings ~$1.92.",
       "prep_minutes": 2,
-      "per_serving_price": 1.92
+      "per_serving_price": 1.92,
+      "pitch_wow": true
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Cottage Crunch \u2014 cottage cheese + pineapple + almonds",
+      "order": "Cottage Crunch \u2014 cottage + pineapple + almonds",
       "price": 6.5,
       "calories": 300,
       "protein_g": 26,
@@ -2223,45 +1643,20 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
-        "H-E-B cottage cheese 24oz ($3.49)",
-        "Pineapple chunks 20oz ($1.79)",
-        "Almonds snack pack ($1.22)"
+        "Cottage cheese 24oz ($3.49)",
+        "Pineapple chunks ($1.79)",
+        "Almonds ($1.22)"
       ],
-      "recipe": "1 cup cottage + fruit + almonds. Makes 3 servings \u2014 ~$2.17/meal.",
+      "recipe": "1 cup cottage + fruit + almonds. 3 servings ~$2.17.",
       "prep_minutes": 3,
       "per_serving_price": 2.17
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Cottage Crunch \u2014 cottage cheese + pineapple + almonds (lighter portion)",
-      "price": 6.5,
-      "calories": 260,
-      "protein_g": 26,
-      "carbs_g": 18,
-      "fat_g": 8,
-      "goals": [
-        "lose_weight",
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "H-E-B cottage cheese 24oz ($3.49)",
-        "Pineapple chunks 20oz ($1.79)",
-        "Almonds snack pack ($1.22)"
-      ],
-      "recipe": "1 cup cottage + fruit + almonds. Makes 3 servings \u2014 ~$2.17/meal. Use a lighter scoop.",
-      "prep_minutes": 3,
-      "per_serving_price": 1.95
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Turkey Plate \u2014 deli turkey + mustard + baby carrots",
+      "order": "Turkey Plate \u2014 deli turkey + mustard + carrots",
       "price": 7.2,
       "calories": 280,
       "protein_g": 30,
@@ -2272,39 +1667,16 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
-        "H-E-B oven roasted turkey 0.5lb ($4.50)",
+        "Oven roasted turkey 0.5lb ($4.50)",
         "Mustard ($1.29)",
-        "Baby carrots 1lb ($1.41)"
+        "Baby carrots ($1.41)"
       ],
-      "recipe": "Roll turkey with mustard; side carrots. Makes 3 plates \u2014 ~$2.40.",
+      "recipe": "Roll turkey; side carrots. 3 plates ~$2.40.",
       "prep_minutes": 4,
-      "per_serving_price": 2.4
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Turkey Plate \u2014 deli turkey + mustard + baby carrots (lighter portion)",
-      "price": 7.2,
-      "calories": 240,
-      "protein_g": 30,
-      "carbs_g": 10,
-      "fat_g": 4,
-      "goals": [
-        "lose_weight",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "H-E-B oven roasted turkey 0.5lb ($4.50)",
-        "Mustard ($1.29)",
-        "Baby carrots 1lb ($1.41)"
-      ],
-      "recipe": "Roll turkey with mustard; side carrots. Makes 3 plates \u2014 ~$2.40. Use a lighter scoop.",
-      "prep_minutes": 4,
-      "per_serving_price": 2.16
+      "per_serving_price": 2.4,
+      "pitch_wow": true
     },
     {
       "location_chain": "H-E-B",
@@ -2320,44 +1692,20 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
-        "H-E-B rolled oats ($2.49)",
-        "H-E-B whey protein ($5.99)",
+        "Rolled oats ($2.49)",
+        "Whey protein ($5.99)",
         "Frozen berries ($1.32)"
       ],
-      "recipe": "Microwave oats, stir whey + berries. Makes 5 bowls \u2014 ~$1.96.",
+      "recipe": "Microwave oats; stir whey + berries. 5 bowls ~$1.96.",
       "prep_minutes": 5,
       "per_serving_price": 1.96
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Oat Boost \u2014 oats + whey + berries (lighter portion)",
-      "price": 9.8,
-      "calories": 320,
-      "protein_g": 28,
-      "carbs_g": 36,
-      "fat_g": 4,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "H-E-B rolled oats ($2.49)",
-        "H-E-B whey protein ($5.99)",
-        "Frozen berries ($1.32)"
-      ],
-      "recipe": "Microwave oats, stir whey + berries. Makes 5 bowls \u2014 ~$1.96. Use a lighter scoop.",
-      "prep_minutes": 5,
-      "per_serving_price": 1.76
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Bean Cheese Melt \u2014 tortillas + refried beans + shredded cheese",
+      "order": "Bean Cheese Melt \u2014 tortillas + refried + cheese",
       "price": 5.4,
       "calories": 420,
       "protein_g": 18,
@@ -2367,43 +1715,20 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "Flour tortillas ($2.29)",
         "Refried beans ($0.99)",
-        "Shredded cheese 8oz ($2.12)"
+        "Shredded cheese ($2.12)"
       ],
-      "recipe": "Fill tortilla, microwave 60s. Makes 4 \u2014 ~$1.35.",
+      "recipe": "Fill tortilla; microwave 60s. 4 ~$1.35.",
       "prep_minutes": 3,
       "per_serving_price": 1.35
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Bean Cheese Melt \u2014 tortillas + refried beans + shredded cheese (lighter portion)",
-      "price": 5.4,
-      "calories": 380,
-      "protein_g": 18,
-      "carbs_g": 42,
-      "fat_g": 12,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "Flour tortillas ($2.29)",
-        "Refried beans ($0.99)",
-        "Shredded cheese 8oz ($2.12)"
-      ],
-      "recipe": "Fill tortilla, microwave 60s. Makes 4 \u2014 ~$1.35. Use a lighter scoop.",
-      "prep_minutes": 3,
-      "per_serving_price": 1.22
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Shrimp Stir \u2014 frozen shrimp + bagged stir-fry + soy",
+      "order": "Shrimp Stir \u2014 shrimp + stir-fry veg + soy",
       "price": 10.5,
       "calories": 310,
       "protein_g": 28,
@@ -2415,45 +1740,20 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "Frozen shrimp 12oz ($6.99)",
-        "Stir-fry veggie bag ($2.49)",
+        "Stir-fry bag ($2.49)",
         "Low-sodium soy ($1.02)"
       ],
-      "recipe": "Skillet shrimp + veggies, 8 min. Makes 3 \u2014 ~$3.50.",
+      "recipe": "Skillet 8 min. 3 servings ~$3.50.",
       "prep_minutes": 8,
       "per_serving_price": 3.5
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Shrimp Stir \u2014 frozen shrimp + bagged stir-fry + soy (lighter portion)",
-      "price": 10.5,
-      "calories": 270,
-      "protein_g": 28,
-      "carbs_g": 16,
-      "fat_g": 6,
-      "goals": [
-        "lose_weight",
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "Frozen shrimp 12oz ($6.99)",
-        "Stir-fry veggie bag ($2.49)",
-        "Low-sodium soy ($1.02)"
-      ],
-      "recipe": "Skillet shrimp + veggies, 8 min. Makes 3 \u2014 ~$3.50. Use a lighter scoop.",
-      "prep_minutes": 8,
-      "per_serving_price": 3.15
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Chicken Rice Meal Prep \u2014 chicken breast + rice + salsa",
+      "order": "Chicken Rice Meal Prep \u2014 breast + rice + salsa",
       "price": 11.0,
       "calories": 450,
       "protein_g": 40,
@@ -2464,44 +1764,21 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "Chicken breast 1.5lb ($6.50)",
-        "H-E-B rice 2lb ($1.99)",
+        "Rice 2lb ($1.99)",
         "Salsa ($2.51)"
       ],
-      "recipe": "Bake chicken, rice, salsa. Makes 5 \u2014 ~$2.20.",
+      "recipe": "Bake chicken + rice. 5 servings ~$2.20.",
       "prep_minutes": 10,
-      "per_serving_price": 2.2
+      "per_serving_price": 2.2,
+      "pitch_wow": true
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Chicken Rice Meal Prep \u2014 chicken breast + rice + salsa (lighter portion)",
-      "price": 11.0,
-      "calories": 410,
-      "protein_g": 40,
-      "carbs_g": 39,
-      "fat_g": 6,
-      "goals": [
-        "gain_muscle",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "Chicken breast 1.5lb ($6.50)",
-        "H-E-B rice 2lb ($1.99)",
-        "Salsa ($2.51)"
-      ],
-      "recipe": "Bake chicken, rice, salsa. Makes 5 \u2014 ~$2.20. Use a lighter scoop.",
-      "prep_minutes": 10,
-      "per_serving_price": 1.98
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Tofu Veg Bowl \u2014 tofu + frozen veggies + teriyaki",
+      "order": "Tofu Veg Bowl \u2014 tofu + frozen veg + teriyaki",
       "price": 6.8,
       "calories": 340,
       "protein_g": 22,
@@ -2512,39 +1789,15 @@
         "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "Firm tofu ($2.29)",
         "Frozen mixed veggies ($1.99)",
-        "Teriyaki sauce ($2.52)"
+        "Teriyaki ($2.52)"
       ],
-      "recipe": "Pan-sear tofu, steam veggies. Makes 3 \u2014 ~$2.27.",
+      "recipe": "Pan-sear tofu; steam veggies. 3 ~$2.27.",
       "prep_minutes": 8,
       "per_serving_price": 2.27
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Tofu Veg Bowl \u2014 tofu + frozen veggies + teriyaki (lighter portion)",
-      "price": 6.8,
-      "calories": 300,
-      "protein_g": 22,
-      "carbs_g": 22,
-      "fat_g": 12,
-      "goals": [
-        "maintain",
-        "lose_weight"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "Firm tofu ($2.29)",
-        "Frozen mixed veggies ($1.99)",
-        "Teriyaki sauce ($2.52)"
-      ],
-      "recipe": "Pan-sear tofu, steam veggies. Makes 3 \u2014 ~$2.27. Use a lighter scoop.",
-      "prep_minutes": 8,
-      "per_serving_price": 2.04
     },
     {
       "location_chain": "H-E-B",
@@ -2559,38 +1812,16 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "Whole wheat bread ($1.99)",
         "Peanut butter ($1.50)",
         "Banana ($1.01)"
       ],
-      "recipe": "Toast, spread PB, banana. Makes 4 \u2014 ~$1.13.",
+      "recipe": "Toast + PB + banana. 4 ~$1.13.",
       "prep_minutes": 3,
-      "per_serving_price": 1.13
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "PB Banana Toast \u2014 bread + PB + banana (lighter portion)",
-      "price": 4.5,
-      "calories": 340,
-      "protein_g": 14,
-      "carbs_g": 42,
-      "fat_g": 12,
-      "goals": [
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "Whole wheat bread ($1.99)",
-        "Peanut butter ($1.50)",
-        "Banana ($1.01)"
-      ],
-      "recipe": "Toast, spread PB, banana. Makes 4 \u2014 ~$1.13. Use a lighter scoop.",
-      "prep_minutes": 3,
-      "per_serving_price": 1.02
+      "per_serving_price": 1.13,
+      "pitch_wow": true
     },
     {
       "location_chain": "H-E-B",
@@ -2607,45 +1838,20 @@
         "maintain"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "Canned salmon ($3.49)",
-        "Whole grain crackers ($1.79)",
+        "Crackers ($1.79)",
         "Cucumber ($0.92)"
       ],
-      "recipe": "Salmon on crackers + cucumber. Makes 2 \u2014 ~$3.10.",
+      "recipe": "Salmon on crackers + cucumber. 2 ~$3.10.",
       "prep_minutes": 4,
       "per_serving_price": 3.1
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Salmon Packet \u2014 canned salmon + crackers + cucumber (lighter portion)",
-      "price": 6.2,
-      "calories": 290,
-      "protein_g": 26,
-      "carbs_g": 18,
-      "fat_g": 10,
-      "goals": [
-        "gain_muscle",
-        "lose_weight",
-        "maintain"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "Canned salmon ($3.49)",
-        "Whole grain crackers ($1.79)",
-        "Cucumber ($0.92)"
-      ],
-      "recipe": "Salmon on crackers + cucumber. Makes 2 \u2014 ~$3.10. Use a lighter scoop.",
-      "prep_minutes": 4,
-      "per_serving_price": 2.79
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Chili Night \u2014 canned chili + cornbread mix + cheese sprinkle",
+      "order": "Chili Night \u2014 chili + cornbread + cheese",
       "price": 5.9,
       "calories": 460,
       "protein_g": 22,
@@ -2656,44 +1862,20 @@
         "gain_muscle"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B chili ($2.49)",
         "Cornbread mix ($1.79)",
-        "Cheese sprinkle ($1.62)"
+        "Cheese ($1.62)"
       ],
-      "recipe": "Heat chili, bake mini cornbread. Makes 3 \u2014 ~$1.97.",
+      "recipe": "Heat chili; bake mini cornbread. 3 ~$1.97.",
       "prep_minutes": 10,
       "per_serving_price": 1.97
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Chili Night \u2014 canned chili + cornbread mix + cheese sprinkle (lighter portion)",
-      "price": 5.9,
-      "calories": 420,
-      "protein_g": 22,
-      "carbs_g": 46,
-      "fat_g": 14,
-      "goals": [
-        "maintain",
-        "gain_muscle"
-      ],
-      "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
-      "items": [
-        "H-E-B chili ($2.49)",
-        "Cornbread mix ($1.79)",
-        "Cheese sprinkle ($1.62)"
-      ],
-      "recipe": "Heat chili, bake mini cornbread. Makes 3 \u2014 ~$1.97. Use a lighter scoop.",
-      "prep_minutes": 10,
-      "per_serving_price": 1.77
-    },
-    {
-      "location_chain": "H-E-B",
-      "type": "grocery",
-      "order": "Hummus Plate \u2014 hummus + pita + bell pepper",
+      "order": "Hummus Plate \u2014 hummus + pita + pepper",
       "price": 5.8,
       "calories": 360,
       "protein_g": 12,
@@ -2704,39 +1886,988 @@
         "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
-        "H-E-B hummus ($2.99)",
+        "Hummus ($2.99)",
         "Pita 6ct ($1.79)",
         "Bell pepper ($1.02)"
       ],
-      "recipe": "Dip pita + pepper. Makes 3 \u2014 ~$1.93.",
+      "recipe": "Dip pita + pepper. 3 ~$1.93.",
       "prep_minutes": 2,
       "per_serving_price": 1.93
     },
     {
       "location_chain": "H-E-B",
       "type": "grocery",
-      "order": "Hummus Plate \u2014 hummus + pita + bell pepper (lighter portion)",
-      "price": 5.8,
+      "order": "Egg Wrap Express \u2014 eggs + wraps + hot sauce",
+      "price": 6.4,
+      "calories": 350,
+      "protein_g": 24,
+      "carbs_g": 26,
+      "fat_g": 16,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Eggs dozen ($2.89)",
+        "Spinach wraps ($2.49)",
+        "Hot sauce ($1.02)"
+      ],
+      "recipe": "Scramble in wrap. 4 ~$1.60.",
+      "prep_minutes": 5,
+      "per_serving_price": 1.6
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Pasta Protein \u2014 chickpea pasta + sauce + turkey",
+      "price": 9.4,
+      "calories": 480,
+      "protein_g": 34,
+      "carbs_g": 52,
+      "fat_g": 10,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Chickpea pasta ($3.49)",
+        "Marinara ($1.99)",
+        "Ground turkey ($3.92)"
+      ],
+      "recipe": "Boil pasta; brown turkey. 4 ~$2.35.",
+      "prep_minutes": 10,
+      "per_serving_price": 2.35
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Smoothie Fuel \u2014 fruit + milk + protein",
+      "price": 8.6,
       "calories": 320,
-      "protein_g": 12,
-      "carbs_g": 38,
+      "protein_g": 26,
+      "carbs_g": 36,
+      "fat_g": 4,
+      "goals": [
+        "lose_weight",
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Frozen fruit ($2.99)",
+        "Fairlife milk ($3.49)",
+        "Protein pack ($2.12)"
+      ],
+      "recipe": "Blend 2 min. 3 ~$2.87.",
+      "prep_minutes": 2,
+      "per_serving_price": 2.87
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Rice Bean Bowl \u2014 mic rice + beans + salsa",
+      "price": 3.8,
+      "calories": 400,
+      "protein_g": 14,
+      "carbs_g": 68,
+      "fat_g": 4,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Microwave rice ($1.49)",
+        "Black beans ($0.89)",
+        "Salsa ($1.42)"
+      ],
+      "recipe": "Heat rice + beans. 2 ~$1.90.",
+      "prep_minutes": 4,
+      "per_serving_price": 1.9,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Tuna Avocado \u2014 tuna + avocado + lime",
+      "price": 5.1,
+      "calories": 360,
+      "protein_g": 28,
+      "carbs_g": 12,
+      "fat_g": 20,
+      "goals": [
+        "gain_muscle",
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Tuna 2 cans ($1.98)",
+        "Avocado ($1.50)",
+        "Lime ($1.62)"
+      ],
+      "recipe": "Mix tuna + avocado + lime. 2 ~$2.55.",
+      "prep_minutes": 3,
+      "per_serving_price": 2.55,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Greek Power \u2014 yogurt + granola + honey",
+      "price": 6.9,
+      "calories": 380,
+      "protein_g": 20,
+      "carbs_g": 48,
+      "fat_g": 10,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Greek yogurt ($3.99)",
+        "Granola ($1.99)",
+        "Honey ($0.92)"
+      ],
+      "recipe": "Bowl yogurt mix. 4 ~$1.73.",
+      "prep_minutes": 2,
+      "per_serving_price": 1.73
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Lentil Soup Night \u2014 lentils + broth + spinach",
+      "price": 4.8,
+      "calories": 310,
+      "protein_g": 20,
+      "carbs_g": 40,
+      "fat_g": 4,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Canned lentils ($1.29)",
+        "Broth ($1.99)",
+        "Spinach ($1.52)"
+      ],
+      "recipe": "Simmer 8 min. 3 ~$1.60.",
+      "prep_minutes": 8,
+      "per_serving_price": 1.6
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Breakfast Burrito Kit \u2014 eggs + tortillas + salsa",
+      "price": 5.7,
+      "calories": 390,
+      "protein_g": 20,
+      "carbs_g": 36,
+      "fat_g": 16,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Eggs ($2.89)",
+        "Tortillas ($1.79)",
+        "Salsa ($1.02)"
+      ],
+      "recipe": "Scramble wrap. 4 ~$1.43.",
+      "prep_minutes": 5,
+      "per_serving_price": 1.43
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Chicken Salad Lite \u2014 canned chicken + yogurt + celery",
+      "price": 6.1,
+      "calories": 290,
+      "protein_g": 32,
+      "carbs_g": 8,
+      "fat_g": 10,
+      "goals": [
+        "lose_weight",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Canned chicken ($2.49)",
+        "Greek yogurt ($2.00)",
+        "Celery ($1.61)"
+      ],
+      "recipe": "Mix chicken salad. 3 ~$2.03.",
+      "prep_minutes": 5,
+      "per_serving_price": 2.03,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Queso Potato \u2014 microwave potato + turkey chili + cheese",
+      "price": 5.5,
+      "calories": 420,
+      "protein_g": 22,
+      "carbs_g": 48,
+      "fat_g": 12,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Russet potatoes 5lb ($2.49)",
+        "Turkey chili ($1.99)",
+        "Cheese ($1.02)"
+      ],
+      "recipe": "Microwave potato; top chili. 4 ~$1.38.",
+      "prep_minutes": 8,
+      "per_serving_price": 1.38
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Edamame Rice \u2014 frozen edamame + rice + soy",
+      "price": 4.9,
+      "calories": 360,
+      "protein_g": 20,
+      "carbs_g": 48,
+      "fat_g": 8,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Frozen edamame ($2.29)",
+        "Microwave rice ($1.49)",
+        "Soy sauce ($1.12)"
+      ],
+      "recipe": "Heat + mix. 2 ~$2.45.",
+      "prep_minutes": 5,
+      "per_serving_price": 2.45
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Sardine Toast \u2014 sardines + bread + mustard",
+      "price": 4.2,
+      "calories": 340,
+      "protein_g": 24,
+      "carbs_g": 28,
+      "fat_g": 14,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Sardines ($1.79)",
+        "Whole wheat bread ($1.49)",
+        "Mustard ($0.92)"
+      ],
+      "recipe": "Toast + sardines. 2 ~$2.10.",
+      "prep_minutes": 3,
+      "per_serving_price": 2.1
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Black Bean Tacos \u2014 tortillas + black beans + salsa",
+      "price": 4.1,
+      "calories": 380,
+      "protein_g": 16,
+      "carbs_g": 58,
+      "fat_g": 8,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Corn tortillas ($1.49)",
+        "Black beans ($0.89)",
+        "Salsa ($1.72)"
+      ],
+      "recipe": "Warm fillings. 3 ~$1.37.",
+      "prep_minutes": 5,
+      "per_serving_price": 1.37,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Protein Nacho Lite \u2014 chips + turkey + salsa",
+      "price": 6.8,
+      "calories": 400,
+      "protein_g": 26,
+      "carbs_g": 36,
+      "fat_g": 16,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Tortilla chips ($2.29)",
+        "Deli turkey ($2.99)",
+        "Salsa ($1.52)"
+      ],
+      "recipe": "Bake chips + turkey. 3 ~$2.27.",
+      "prep_minutes": 8,
+      "per_serving_price": 2.27
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Kimchi Eggs \u2014 eggs + kimchi + rice",
+      "price": 5.6,
+      "calories": 390,
+      "protein_g": 22,
+      "carbs_g": 40,
+      "fat_g": 14,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Eggs ($2.89)",
+        "Kimchi ($1.79)",
+        "Microwave rice ($0.92)"
+      ],
+      "recipe": "Scramble with kimchi over rice. 3 ~$1.87.",
+      "prep_minutes": 6,
+      "per_serving_price": 1.87
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Caprese Snack \u2014 mozzarella + tomato + basil",
+      "price": 5.9,
+      "calories": 320,
+      "protein_g": 18,
+      "carbs_g": 10,
+      "fat_g": 22,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Fresh mozzarella ($3.49)",
+        "Tomatoes ($1.49)",
+        "Basil ($0.92)"
+      ],
+      "recipe": "Slice + plate. 2 ~$2.95.",
+      "prep_minutes": 3,
+      "per_serving_price": 2.95
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Peanut Noodle \u2014 noodles + PB + soy chili",
+      "price": 4.4,
+      "calories": 450,
+      "protein_g": 16,
+      "carbs_g": 58,
+      "fat_g": 16,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Ramen/noodles ($1.29)",
+        "Peanut butter ($1.50)",
+        "Soy + chili ($1.61)"
+      ],
+      "recipe": "Boil noodles; sauce. 2 ~$2.20.",
+      "prep_minutes": 8,
+      "per_serving_price": 2.2
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Chickpea Salad \u2014 chickpeas + cucumber + lemon",
+      "price": 3.9,
+      "calories": 300,
+      "protein_g": 14,
+      "carbs_g": 40,
+      "fat_g": 8,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Chickpeas can ($0.99)",
+        "Cucumber ($0.99)",
+        "Lemon ($1.92)"
+      ],
+      "recipe": "Drain + toss. 2 ~$1.95.",
+      "prep_minutes": 4,
+      "per_serving_price": 1.95
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Breakfast Parfait Stack \u2014 yogurt + cereal + berries",
+      "price": 6.2,
+      "calories": 350,
+      "protein_g": 18,
+      "carbs_g": 52,
+      "fat_g": 6,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Greek yogurt ($3.49)",
+        "High-protein cereal ($1.79)",
+        "Berries ($0.92)"
+      ],
+      "recipe": "Layer parfait. 3 ~$2.07.",
+      "prep_minutes": 2,
+      "per_serving_price": 2.07
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Sheet-Pan Sausage \u2014 chicken sausage + potatoes + peppers",
+      "price": 9.2,
+      "calories": 420,
+      "protein_g": 26,
+      "carbs_g": 36,
+      "fat_g": 18,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Chicken sausage ($4.99)",
+        "Potatoes ($2.00)",
+        "Peppers ($2.21)"
+      ],
+      "recipe": "Roast 10 min leftover-friendly. 4 ~$2.30.",
+      "prep_minutes": 10,
+      "per_serving_price": 2.3
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Tuna Rice Cake Stack \u2014 tuna + rice cakes + hot sauce",
+      "price": 3.6,
+      "calories": 280,
+      "protein_g": 24,
+      "carbs_g": 28,
+      "fat_g": 6,
+      "goals": [
+        "lose_weight",
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Tuna can ($0.99)",
+        "Rice cakes ($1.79)",
+        "Hot sauce ($0.82)"
+      ],
+      "recipe": "Stack tuna on cakes. 2 ~$1.80.",
+      "prep_minutes": 2,
+      "per_serving_price": 1.8,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Whey Coffee Shake \u2014 whey + milk + instant coffee",
+      "price": 7.4,
+      "calories": 250,
+      "protein_g": 30,
+      "carbs_g": 16,
+      "fat_g": 4,
+      "goals": [
+        "gain_muscle",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Whey scoop pack ($3.49)",
+        "Fairlife milk ($2.99)",
+        "Instant coffee ($0.92)"
+      ],
+      "recipe": "Shake 1 min. 2 ~$3.70.",
+      "prep_minutes": 1,
+      "per_serving_price": 3.7
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Veggie Omelette Kit \u2014 eggs + frozen peppers + cheese",
+      "price": 5.3,
+      "calories": 340,
+      "protein_g": 24,
+      "carbs_g": 10,
+      "fat_g": 22,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Eggs ($2.89)",
+        "Frozen peppers ($1.49)",
+        "Cheese ($0.92)"
+      ],
+      "recipe": "Omelette 5 min. 3 ~$1.77.",
+      "prep_minutes": 5,
+      "per_serving_price": 1.77
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "BBQ Chicken Sweet Potato \u2014 rotisserie bits + sweet potato + BBQ",
+      "price": 8.5,
+      "calories": 400,
+      "protein_g": 30,
+      "carbs_g": 42,
+      "fat_g": 10,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Rotisserie leftovers/pack ($5.49)",
+        "Sweet potatoes ($1.99)",
+        "BBQ sauce ($1.02)"
+      ],
+      "recipe": "Microwave potato; top chicken. 3 ~$2.83.",
+      "prep_minutes": 8,
+      "per_serving_price": 2.83
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Pinto Breakfast \u2014 pinto beans + eggs + tortilla",
+      "price": 4.0,
+      "calories": 360,
+      "protein_g": 18,
+      "carbs_g": 40,
+      "fat_g": 12,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Pinto beans ($0.89)",
+        "Eggs ($1.89)",
+        "Tortillas ($1.22)"
+      ],
+      "recipe": "Heat beans; fry egg. 2 ~$2.00.",
+      "prep_minutes": 6,
+      "per_serving_price": 2.0,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Apple Turkey Rollups \u2014 turkey + apple + mustard",
+      "price": 5.0,
+      "calories": 260,
+      "protein_g": 24,
+      "carbs_g": 20,
+      "fat_g": 6,
+      "goals": [
+        "lose_weight",
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Deli turkey ($2.99)",
+        "Apples ($1.29)",
+        "Mustard ($0.72)"
+      ],
+      "recipe": "Roll turkey around apple. 2 ~$2.50.",
+      "prep_minutes": 3,
+      "per_serving_price": 2.5,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Microwave Mac Protein \u2014 chickpea mac + tuna + peas",
+      "price": 6.4,
+      "calories": 440,
+      "protein_g": 32,
+      "carbs_g": 48,
+      "fat_g": 10,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Chickpea mac ($2.99)",
+        "Tuna ($0.99)",
+        "Frozen peas ($2.42)"
+      ],
+      "recipe": "Microwave mac; mix tuna/peas. 2 ~$3.20.",
+      "prep_minutes": 6,
+      "per_serving_price": 3.2
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Guac Egg Toast \u2014 toast + egg + guacamole cup",
+      "price": 5.8,
+      "calories": 380,
+      "protein_g": 16,
+      "carbs_g": 28,
+      "fat_g": 22,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Bread ($1.49)",
+        "Eggs ($1.89)",
+        "Guac cup ($2.42)"
+      ],
+      "recipe": "Toast + fried egg + guac. 2 ~$2.90.",
+      "prep_minutes": 5,
+      "per_serving_price": 2.9
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Citrus Chicken \u2014 canned chicken + orange + spinach",
+      "price": 5.4,
+      "calories": 300,
+      "protein_g": 30,
+      "carbs_g": 18,
+      "fat_g": 8,
+      "goals": [
+        "lose_weight",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Canned chicken ($2.49)",
+        "Orange ($1.00)",
+        "Spinach ($1.91)"
+      ],
+      "recipe": "Toss chicken + citrus over spinach. 2 ~$2.70.",
+      "prep_minutes": 4,
+      "per_serving_price": 2.7
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Spicy Bean Bowl \u2014 beans + microwave rice + salsa verde",
+      "price": 3.5,
+      "calories": 390,
+      "protein_g": 14,
+      "carbs_g": 66,
+      "fat_g": 4,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Black beans ($0.89)",
+        "Microwave rice ($1.49)",
+        "Salsa verde ($1.12)"
+      ],
+      "recipe": "Heat + mix. 2 ~$1.75.",
+      "prep_minutes": 4,
+      "per_serving_price": 1.75,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Deli Ham Plate \u2014 ham + cheese stick + apple",
+      "price": 4.8,
+      "calories": 320,
+      "protein_g": 22,
+      "carbs_g": 24,
       "fat_g": 12,
       "goals": [
         "maintain",
         "lose_weight"
       ],
       "estimate_as_of": "2026-08-16",
-      "macros_source": "chain_nutrition_estimate",
+      "macros_source": "heb_public_estimate_2026",
       "items": [
-        "H-E-B hummus ($2.99)",
-        "Pita 6ct ($1.79)",
-        "Bell pepper ($1.02)"
+        "Deli ham ($2.49)",
+        "Cheese sticks ($1.29)",
+        "Apple ($1.02)"
       ],
-      "recipe": "Dip pita + pepper. Makes 3 \u2014 ~$1.93. Use a lighter scoop.",
+      "recipe": "Plate protein + fruit. 2 ~$2.40.",
       "prep_minutes": 2,
-      "per_serving_price": 1.74
+      "per_serving_price": 2.4
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Frozen Burrito Upgrade \u2014 burrito + salsa + Greek yogurt",
+      "price": 4.6,
+      "calories": 420,
+      "protein_g": 18,
+      "carbs_g": 52,
+      "fat_g": 14,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Frozen burrito ($2.49)",
+        "Salsa ($1.19)",
+        "Greek yogurt ($0.92)"
+      ],
+      "recipe": "Microwave burrito; top salsa/yogurt. 1 ~$4.60.",
+      "prep_minutes": 4,
+      "per_serving_price": 4.6
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Protein Cereal Bowl \u2014 high-protein cereal + milk + banana",
+      "price": 5.2,
+      "calories": 360,
+      "protein_g": 24,
+      "carbs_g": 48,
+      "fat_g": 6,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Protein cereal ($2.99)",
+        "Milk ($1.29)",
+        "Banana ($0.92)"
+      ],
+      "recipe": "Pour + slice banana. 2 ~$2.60.",
+      "prep_minutes": 2,
+      "per_serving_price": 2.6
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Jalape\u00f1o Tuna Melt Lite \u2014 tuna + tortilla + jalape\u00f1os",
+      "price": 3.8,
+      "calories": 340,
+      "protein_g": 26,
+      "carbs_g": 30,
+      "fat_g": 10,
+      "goals": [
+        "gain_muscle",
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Tuna ($0.99)",
+        "Tortilla ($1.49)",
+        "Pickled jalape\u00f1os ($1.32)"
+      ],
+      "recipe": "Warm tortilla melt. 2 ~$1.90.",
+      "prep_minutes": 4,
+      "per_serving_price": 1.9,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Broccoli Cheddar Egg Bake \u2014 eggs + broccoli + cheese",
+      "price": 6.0,
+      "calories": 320,
+      "protein_g": 24,
+      "carbs_g": 10,
+      "fat_g": 20,
+      "goals": [
+        "gain_muscle",
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Eggs ($2.89)",
+        "Frozen broccoli ($1.49)",
+        "Cheese ($1.62)"
+      ],
+      "recipe": "Microwave mug bake. 3 ~$2.00.",
+      "prep_minutes": 6,
+      "per_serving_price": 2.0
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Trail Mix Yogurt \u2014 yogurt + trail mix + honey drizzle",
+      "price": 5.5,
+      "calories": 370,
+      "protein_g": 18,
+      "carbs_g": 36,
+      "fat_g": 14,
+      "goals": [
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Greek yogurt ($2.99)",
+        "Trail mix ($1.79)",
+        "Honey ($0.72)"
+      ],
+      "recipe": "Stir bowl. 2 ~$2.75.",
+      "prep_minutes": 2,
+      "per_serving_price": 2.75
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Corn Salsa Chicken \u2014 canned chicken + corn + salsa",
+      "price": 4.5,
+      "calories": 330,
+      "protein_g": 28,
+      "carbs_g": 28,
+      "fat_g": 8,
+      "goals": [
+        "gain_muscle",
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Canned chicken ($2.49)",
+        "Canned corn ($0.89)",
+        "Salsa ($1.12)"
+      ],
+      "recipe": "Mix cold or warm. 2 ~$2.25.",
+      "prep_minutes": 3,
+      "per_serving_price": 2.25,
+      "pitch_wow": true
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Zucchini Boat Lite \u2014 zucchini + turkey + marinara",
+      "price": 7.1,
+      "calories": 300,
+      "protein_g": 26,
+      "carbs_g": 18,
+      "fat_g": 12,
+      "goals": [
+        "lose_weight",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Zucchini ($1.99)",
+        "Ground turkey small ($3.49)",
+        "Marinara ($1.62)"
+      ],
+      "recipe": "Microwave zucchini boats. 3 ~$2.37.",
+      "prep_minutes": 10,
+      "per_serving_price": 2.37
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Overnight Oats Classic \u2014 oats + milk + chia",
+      "price": 4.3,
+      "calories": 340,
+      "protein_g": 14,
+      "carbs_g": 48,
+      "fat_g": 10,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Oats ($1.49)",
+        "Milk ($1.49)",
+        "Chia ($1.32)"
+      ],
+      "recipe": "Mix night before. 2 ~$2.15.",
+      "prep_minutes": 2,
+      "per_serving_price": 2.15
+    },
+    {
+      "location_chain": "H-E-B",
+      "type": "grocery",
+      "order": "Spicy Egg Tacos \u2014 eggs + corn tortillas + salsa",
+      "price": 3.7,
+      "calories": 320,
+      "protein_g": 16,
+      "carbs_g": 28,
+      "fat_g": 14,
+      "goals": [
+        "maintain",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-16",
+      "macros_source": "heb_public_estimate_2026",
+      "items": [
+        "Eggs ($1.89)",
+        "Corn tortillas ($1.29)",
+        "Salsa ($0.52)"
+      ],
+      "recipe": "Scramble tacos. 2 ~$1.85.",
+      "prep_minutes": 5,
+      "per_serving_price": 1.85,
+      "pitch_wow": true
     }
   ]
 }
