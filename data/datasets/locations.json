@@ -1,0 +1,189 @@
+{
+  "estimate_as_of": "2026-08-16",
+  "locations": [
+    {
+      "name": "Chipotle - Alamo Heights",
+      "chain": "Chipotle",
+      "type": "restaurant",
+      "address": "4210 Broadway St, San Antonio, TX 78209",
+      "lat": 29.4678,
+      "lng": -98.4634
+    },
+    {
+      "name": "Chipotle - Downtown",
+      "chain": "Chipotle",
+      "type": "restaurant",
+      "address": "733 E Houston St, San Antonio, TX 78205",
+      "lat": 29.4267,
+      "lng": -98.4847
+    },
+    {
+      "name": "Chipotle - Medical Center",
+      "chain": "Chipotle",
+      "type": "restaurant",
+      "address": "8498 Fredericksburg Rd, San Antonio, TX 78229",
+      "lat": 29.5089,
+      "lng": -98.5771
+    },
+    {
+      "name": "Whataburger - St Mary's",
+      "chain": "Whataburger",
+      "type": "restaurant",
+      "address": "2427 N St Mary's St, San Antonio, TX 78212",
+      "lat": 29.4465,
+      "lng": -98.4821
+    },
+    {
+      "name": "Whataburger - Broadway",
+      "chain": "Whataburger",
+      "type": "restaurant",
+      "address": "1802 Broadway St, San Antonio, TX 78215",
+      "lat": 29.4401,
+      "lng": -98.4762
+    },
+    {
+      "name": "Whataburger - UTSA",
+      "chain": "Whataburger",
+      "type": "restaurant",
+      "address": "5603 UTSA Blvd, San Antonio, TX 78249",
+      "lat": 29.582,
+      "lng": -98.6185
+    },
+    {
+      "name": "Panda Express - UTSA Loop",
+      "chain": "Panda Express",
+      "type": "restaurant",
+      "address": "5706 UTSA Blvd, San Antonio, TX 78249",
+      "lat": 29.5831,
+      "lng": -98.6198
+    },
+    {
+      "name": "Panda Express - North Star",
+      "chain": "Panda Express",
+      "type": "restaurant",
+      "address": "7400 San Pedro Ave, San Antonio, TX 78216",
+      "lat": 29.5185,
+      "lng": -98.4962
+    },
+    {
+      "name": "Torchy's Tacos - The Pearl",
+      "chain": "Torchy's Tacos",
+      "type": "restaurant",
+      "address": "302 Pearl Pkwy, San Antonio, TX 78215",
+      "lat": 29.4421,
+      "lng": -98.4803
+    },
+    {
+      "name": "Torchy's Tacos - Alamo Ranch",
+      "chain": "Torchy's Tacos",
+      "type": "restaurant",
+      "address": "5515 W Loop 1604 N, San Antonio, TX 78253",
+      "lat": 29.4895,
+      "lng": -98.7092
+    },
+    {
+      "name": "McDonald's - Downtown",
+      "chain": "McDonald's",
+      "type": "restaurant",
+      "address": "330 E Houston St, San Antonio, TX 78205",
+      "lat": 29.4259,
+      "lng": -98.4881
+    },
+    {
+      "name": "McDonald's - Broadway",
+      "chain": "McDonald's",
+      "type": "restaurant",
+      "address": "1602 Broadway St, San Antonio, TX 78215",
+      "lat": 29.4388,
+      "lng": -98.4775
+    },
+    {
+      "name": "McDonald's - Medical Center",
+      "chain": "McDonald's",
+      "type": "restaurant",
+      "address": "7703 Floyd Curl Dr, San Antonio, TX 78229",
+      "lat": 29.5102,
+      "lng": -98.5755
+    },
+    {
+      "name": "Taco Cabana - Broadway",
+      "chain": "Taco Cabana",
+      "type": "restaurant",
+      "address": "1501 Broadway St, San Antonio, TX 78215",
+      "lat": 29.4375,
+      "lng": -98.4788
+    },
+    {
+      "name": "Taco Cabana - Bandera",
+      "chain": "Taco Cabana",
+      "type": "restaurant",
+      "address": "6703 Bandera Rd, San Antonio, TX 78238",
+      "lat": 29.4855,
+      "lng": -98.6188
+    },
+    {
+      "name": "Chick-fil-A - The Rim",
+      "chain": "Chick-fil-A",
+      "type": "restaurant",
+      "address": "17803 La Cantera Pkwy, San Antonio, TX 78257",
+      "lat": 29.6065,
+      "lng": -98.6012
+    },
+    {
+      "name": "Chick-fil-A - Broadway",
+      "chain": "Chick-fil-A",
+      "type": "restaurant",
+      "address": "1803 Broadway St, San Antonio, TX 78215",
+      "lat": 29.4405,
+      "lng": -98.476
+    },
+    {
+      "name": "Subway - Downtown",
+      "chain": "Subway",
+      "type": "restaurant",
+      "address": "115 Auditorium Cir, San Antonio, TX 78205",
+      "lat": 29.4262,
+      "lng": -98.4895
+    },
+    {
+      "name": "Subway - Alamo Heights",
+      "chain": "Subway",
+      "type": "restaurant",
+      "address": "4901 Broadway St, San Antonio, TX 78209",
+      "lat": 29.4725,
+      "lng": -98.4655
+    },
+    {
+      "name": "H-E-B - Alamo Heights",
+      "chain": "H-E-B",
+      "type": "grocery",
+      "address": "300 W Olmos Dr, San Antonio, TX 78212",
+      "lat": 29.4712,
+      "lng": -98.4891
+    },
+    {
+      "name": "H-E-B - Southside",
+      "chain": "H-E-B",
+      "type": "grocery",
+      "address": "4100 S New Braunfels Ave, San Antonio, TX 78223",
+      "lat": 29.3856,
+      "lng": -98.4612
+    },
+    {
+      "name": "H-E-B Plus - Bulverde",
+      "chain": "H-E-B",
+      "type": "grocery",
+      "address": "2070 N Loop 1604 E, San Antonio, TX 78232",
+      "lat": 29.6123,
+      "lng": -98.4567
+    },
+    {
+      "name": "H-E-B - Medical Center",
+      "chain": "H-E-B",
+      "type": "grocery",
+      "address": "9940 Wurzbach Rd, San Antonio, TX 78230",
+      "lat": 29.5412,
+      "lng": -98.5634
+    }
+  ]
+}
