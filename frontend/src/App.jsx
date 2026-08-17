@@ -153,7 +153,7 @@ export default function App() {
                   max="100"
                   step="0.50"
                   value={budget}
-                  onChange={(e) => setBudget(e.target.value)}
+                   onChange={(e) => setBudget(e.target.value.replace(/^0+(?=\d)/, ''))}
                   required
                 />
               </div>
