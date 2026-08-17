@@ -19,7 +19,13 @@ Suggested plug-in in `backend/app/database.py` inside `fetch_recommendations` (a
 
 ```python
 from recommender import recommend
-return recommend(budget=budget, goal=goal, lat=lat, lng=lng)
+return recommend(
+    budget=budget,
+    goal=goal,
+    lat=lat,
+    lng=lng,
+    radius_miles=settings.default_radius_miles,
+)
 ```
 
 Keep Pydantic models in `backend/app/models.py` as the HTTP contract. `recommend()` returns plain dicts matching `RestaurantOption` / `GroceryOption` field names.
@@ -34,7 +40,8 @@ recommend(budget, goal, lat, lng, radius_miles=5.0)
 ```
 
 - Tax: 8.25% applied inside the engine (`price_with_tax`)
-- Strict filter: `price_with_tax <= budget` and distance `<= radius_miles`
+- Strict filter: checkout `price` (full basket, not per-serving) with tax `<= budget`, and distance `<= radius_miles`
+- `per_serving_price` on grocery JSON is recipe context only
 - Goals: `gain_muscle` | `lose_weight` | `maintain`
 
 ## Datasets

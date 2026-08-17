@@ -42,8 +42,7 @@ def test_eval_cases_invariants():
         if expect.get("at_least_one") and not options:
             errors.append(f"{case['id']}: expected at least one option")
         if not expect.get("at_least_one") and options:
-            # tiny budgets may still find grocery; only fail if restaurant sneaks over
-            pass
+            errors.append(f"{case['id']}: expected no options, got {len(options)}")
         for opt in options:
             if opt["price_with_tax"] > expect["max_price_with_tax"] + 1e-6:
                 errors.append(f"{case['id']}: over budget {opt['price_with_tax']}")

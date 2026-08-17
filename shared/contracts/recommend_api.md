@@ -17,7 +17,7 @@ recommend(
 ## Strict filters (all required)
 
 1. `goal` is in the meal's `goals` list
-2. `spend = per_serving_price or price`
+2. `spend = price` (checkout / full basket; grocery `per_serving_price` is recipe text only)
 3. `price_with_tax = round(spend * 1.0825, 2)` and **`price_with_tax <= budget`**
 4. Haversine distance to a matching chain location **`<= radius_miles`**
 5. Meal `type` matches location `type` (`restaurant` or `grocery`)

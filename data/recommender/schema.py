@@ -36,6 +36,5 @@ def with_tax(price: float) -> float:
 
 
 def spend_price(meal: dict[str, Any]) -> float:
-    if meal.get("per_serving_price") is not None:
-        return float(meal["per_serving_price"])
+    """Checkout total for budget checks. per_serving_price is recipe metadata only."""
     return float(meal["price"])

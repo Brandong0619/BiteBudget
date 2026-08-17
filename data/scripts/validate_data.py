@@ -74,6 +74,8 @@ def main() -> int:
         options = [o for o in (restaurant, grocery_opt) if o]
         if expect.get("at_least_one") and not options:
             errors.append(f"{case['id']}: expected at least one option")
+        if not expect.get("at_least_one") and options:
+            errors.append(f"{case['id']}: expected no options, got {len(options)}")
         if expect.get("require_restaurant") and restaurant is None:
             errors.append(f"{case['id']}: restaurant required")
         for opt in options:

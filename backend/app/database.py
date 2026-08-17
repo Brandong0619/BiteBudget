@@ -54,4 +54,10 @@ def fetch_recommendations(
         except Exception:
             pass
 
-    return data_recommend(budget=budget, goal=goal, lat=lat, lng=lng)
+    return data_recommend(
+        budget=budget,
+        goal=goal,
+        lat=lat,
+        lng=lng,
+        radius_miles=settings.default_radius_miles,
+    )

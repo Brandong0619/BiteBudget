@@ -3,7 +3,8 @@
 from __future__ import annotations
 
 from recommender import recommend, recommend_with_debug
-from recommender.schema import with_tax
+from recommender.load import load_meals
+from recommender.schema import spend_price, with_tax
 
 
 DOWNTOWN = (29.4241, -98.4936)
@@ -47,3 +48,24 @@ def test_protein_per_dollar_prefers_efficient_picks():
     assert debug["top_restaurants"] or debug["top_groceries"]
     best = (debug["top_restaurants"] or debug["top_groceries"])[0]
     assert best["protein_g"] / max(best["price_with_tax"], 0.5) >= 2.0
+
+
+def test_grocery_budget_uses_checkout_price_not_per_serving():
+    """A multi-serve H-E-B pack cannot sneak in under budget via per_serving_price."""
+    meals = load_meals()
+    bulky = [
+        m
+        for m in meals
+        if m["type"] == "grocery"
+        and m.get("per_serving_price") is not None
+        and float(m["price"]) >= 10
+        and with_tax(float(m["price"])) > 5
+        and with_tax(float(m["per_serving_price"])) <= 5
+    ]
+    assert bulky, "need a grocery pack that's cheap per serving but expensive at checkout"
+    assert all(spend_price(m) == float(m["price"]) for m in bulky)
+
+    _, grocery = recommend(5.0, "gain_muscle", *DOWNTOWN)
+    if grocery:
+        assert grocery["price_with_tax"] <= 5 + 1e-6
+        assert grocery["price"] < 10
