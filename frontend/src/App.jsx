@@ -73,7 +73,7 @@ function GroceryCard({ option, budget }) {
 }
 
 export default function App() {
-  const [budget, setBudget] = useState(8)
+  const [budget, setBudget] = useState('')
   const [goal, setGoal] = useState('gain_muscle')
   const [goals, setGoals] = useState([])
   const [location, setLocation] = useState(null)
@@ -115,7 +115,7 @@ export default function App() {
 
     try {
       const data = await fetchRecommendations({
-        budget,
+        budget: Number(budget),
         goal,
         lat: location?.lat,
         lng: location?.lng,
@@ -153,7 +153,7 @@ export default function App() {
                   max="100"
                   step="0.50"
                   value={budget}
-                  onChange={(e) => setBudget(Number(e.target.value))}
+                  onChange={(e) => setBudget(e.target.value)}
                   required
                 />
               </div>
