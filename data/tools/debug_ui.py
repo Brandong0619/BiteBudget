@@ -51,26 +51,46 @@ def index() -> str:
   <meta charset=\"utf-8\" />
   <title>Person A Recommender Debug UI</title>
   <style>
-    body { font-family: Inter, Arial, sans-serif; margin: 20px; max-width: 1200px; }
+    body { font-family: Inter, Arial, sans-serif; margin: 20px; max-width: 1250px; color: #111; }
     h1 { margin-bottom: 8px; }
+    h3 { margin: 4px 0 8px; }
+    p { margin: 6px 0; }
     .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .card { border: 1px solid #ddd; border-radius: 8px; padding: 12px; }
+    .card { border: 1px solid #ddd; border-radius: 10px; padding: 14px; background: #fff; }
+    .helper { background: #f7f9fc; border-color: #d8e2f0; }
     label { display: block; margin-top: 8px; font-size: 14px; }
     input, select, button, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
-    button { cursor: pointer; }
+    button { cursor: pointer; border: 1px solid #c6d0e0; border-radius: 8px; background: #f8fbff; }
+    button:hover { background: #eef5ff; }
     .row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
     table { width: 100%; border-collapse: collapse; }
-    th, td { border: 1px solid #e6e6e6; padding: 6px; font-size: 12px; text-align: left; }
-    .ok { color: #1f7a1f; }
-    .bad { color: #b42318; }
+    th, td { border: 1px solid #e6e6e6; padding: 6px; font-size: 12px; text-align: left; vertical-align: top; }
+    .ok { color: #176f2b; font-weight: 600; }
+    .bad { color: #b42318; font-weight: 600; }
+    .warn { color: #8a4b00; font-weight: 600; }
+    .pill { display: inline-block; border: 1px solid #ddd; border-radius: 999px; padding: 2px 8px; font-size: 12px; margin-right: 6px; }
+    .mini { font-size: 12px; color: #555; }
+    .buttons { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-top: 8px; }
   </style>
 </head>
 <body>
   <h1>Person A Recommender Debug UI</h1>
-  <p>Run custom inputs or replay eval cases. Uses <span class=\"mono\">recommend_with_debug()</span>.</p>
+  <p>Use this to verify recommendation accuracy with either custom inputs or saved eval cases. Powered by <span class=\"mono\">recommend_with_debug()</span>.</p>
 
   <div class=\"grid\">
+    <div class=\"card helper\">
+      <h3>How to Read This Page</h3>
+      <p class=\"mini\"><strong>Step 1:</strong> Pick an eval case or enter custom values.</p>
+      <p class=\"mini\"><strong>Step 2:</strong> Click run and check the <strong>Validation Checks</strong> section.</p>
+      <p class=\"mini\"><strong>Step 3:</strong> Review top-3 candidates to understand why winners were selected.</p>
+      <div>
+        <span class=\"pill\">Budget rule: price_with_tax <= budget</span>
+        <span class=\"pill\">Distance rule: <= radius</span>
+        <span class=\"pill\">Goal rule: meal must include selected goal</span>
+      </div>
+    </div>
+
     <div class=\"card\">
       <h3>Run Custom Input</h3>
       <div class=\"row\">
@@ -86,16 +106,29 @@ def index() -> str:
         <label>Lng<input id=\"lng\" type=\"number\" step=\"0.0001\" value=\"-98.4936\"></label>
         <label>Radius<input id=\"radius\" type=\"number\" step=\"0.1\" value=\"5\"></label>
       </div>
-      <button onclick=\"runCustom()\">Run</button>
+      <div class=\"buttons\">
+        <button onclick=\"runCustom()\">Run Custom</button>
+        <button onclick=\"copyCustomJson()\">Copy Custom JSON</button>
+      </div>
     </div>
+  </div>
 
-    <div class=\"card\">
-      <h3>Run Eval Case</h3>
-      <select id=\"caseSelect\"></select>
+  <div class=\"card\" style=\"margin-top:16px\">
+    <h3>Run Eval Case</h3>
+    <select id=\"caseSelect\"></select>
+    <div class=\"buttons\">
       <button onclick=\"runCase()\">Run Selected Case</button>
+      <button onclick=\"fillFromCase()\">Load Case into Custom Form</button>
       <button onclick=\"reloadCases()\">Reload Cases</button>
-      <p id=\"caseMeta\" class=\"mono\"></p>
+      <button onclick=\"copyCaseJson()\">Copy Case JSON</button>
     </div>
+    <p id=\"caseMeta\" class=\"mono\"></p>
+  </div>
+
+  <div class=\"card\" style=\"margin-top:16px\">
+    <h3>Validation Checks</h3>
+    <p id=\"checks\"></p>
+    <p id=\"expectChecks\"></p>
   </div>
 
   <div class=\"grid\" style=\"margin-top:16px\">
@@ -110,8 +143,7 @@ def index() -> str:
   </div>
 
   <div class=\"card\" style=\"margin-top:16px\">
-    <h3>Winners + Raw JSON</h3>
-    <p id=\"checks\"></p>
+    <h3>Raw Output JSON</h3>
     <textarea id=\"raw\" rows=\"18\" class=\"mono\"></textarea>
   </div>
 
@@ -128,6 +160,42 @@ def index() -> str:
       return `<table>${head}${body}</table>`;
     }
 
+    function validateAgainstExpect(result) {
+      const expect = result.__expect;
+      if (!expect) {
+        document.getElementById('expectChecks').innerHTML = '<span class="mini">No eval expectation attached (custom run).</span>';
+        return;
+      }
+      const checks = [];
+      const options = ['restaurant', 'grocery'].map(k => result[k]).filter(Boolean);
+      const hasAtLeastOne = options.length > 0;
+      if (expect.at_least_one === true) {
+        checks.push(hasAtLeastOne
+          ? '<span class="ok">PASS</span> expected at least one option'
+          : '<span class="bad">FAIL</span> expected at least one option');
+      } else if (expect.at_least_one === false) {
+        checks.push(!hasAtLeastOne
+          ? '<span class="ok">PASS</span> expected no options'
+          : `<span class="bad">FAIL</span> expected no options, got ${options.length}`);
+      }
+
+      for (const side of ['restaurant', 'grocery']) {
+        const item = result[side];
+        if (!item) continue;
+        if (expect.max_price_with_tax !== undefined) {
+          checks.push(item.price_with_tax <= expect.max_price_with_tax + 1e-6
+            ? `<span class="ok">PASS</span> ${side} price_with_tax <= expected max (${expect.max_price_with_tax})`
+            : `<span class="bad">FAIL</span> ${side} price_with_tax > expected max (${expect.max_price_with_tax})`);
+        }
+        if (expect.max_distance_miles !== undefined) {
+          checks.push(item.distance_miles <= expect.max_distance_miles + 1e-6
+            ? `<span class="ok">PASS</span> ${side} distance <= expected max (${expect.max_distance_miles})`
+            : `<span class="bad">FAIL</span> ${side} distance > expected max (${expect.max_distance_miles})`);
+        }
+      }
+      document.getElementById('expectChecks').innerHTML = checks.join('<br/>');
+    }
+
     function renderResult(result) {
       document.getElementById('raw').value = JSON.stringify(result, null, 2);
       document.getElementById('topRestaurants').innerHTML = asTable(result.top_restaurants || []);
@@ -137,12 +205,20 @@ def index() -> str:
       const budget = result.__input?.budget;
       for (const side of ['restaurant', 'grocery']) {
         const item = result[side];
-        if (!item) continue;
+        if (!item) {
+          checks.push(`<span class="warn">${side}</span>: no winner returned`);
+          continue;
+        }
         const within = item.price_with_tax <= budget + 1e-6;
+        const radius = result.__input?.radius_miles;
+        const inRadius = item.distance_miles <= (radius + 1e-6);
         checks.push(`${side}: price_with_tax=${item.price_with_tax} <= budget=${budget} ` +
           (within ? '<span class="ok">OK</span>' : '<span class="bad">FAIL</span>'));
+        checks.push(`${side}: distance=${item.distance_miles} <= radius=${radius} ` +
+          (inRadius ? '<span class="ok">OK</span>' : '<span class="bad">FAIL</span>'));
       }
       document.getElementById('checks').innerHTML = checks.join('<br/>') || 'No winners returned.';
+      validateAgainstExpect(result);
     }
 
     async function reloadCases() {
@@ -150,7 +226,10 @@ def index() -> str:
       cases = await res.json();
       const sel = document.getElementById('caseSelect');
       sel.innerHTML = cases.map(c => `<option value="${c.id}">${c.id}</option>`).join('');
-      if (cases.length > 0) setCaseMeta(cases[0].id);
+      if (cases.length > 0) {
+        setCaseMeta(cases[0].id);
+        fillFromCase();
+      }
       sel.onchange = () => setCaseMeta(sel.value);
     }
 
@@ -159,6 +238,38 @@ def index() -> str:
       if (!c) return;
       document.getElementById('caseMeta').textContent =
         `budget=${c.budget} goal=${c.goal} lat=${c.lat} lng=${c.lng} radius=${c.radius_miles}`;
+    }
+
+    function fillFromCase() {
+      const id = document.getElementById('caseSelect').value;
+      const c = cases.find(x => x.id === id);
+      if (!c) return;
+      document.getElementById('budget').value = c.budget;
+      document.getElementById('goal').value = c.goal;
+      document.getElementById('lat').value = c.lat;
+      document.getElementById('lng').value = c.lng;
+      document.getElementById('radius').value = c.radius_miles;
+      setCaseMeta(c.id);
+    }
+
+    async function copyCustomJson() {
+      const payload = {
+        budget: Number(document.getElementById('budget').value),
+        goal: document.getElementById('goal').value,
+        lat: Number(document.getElementById('lat').value),
+        lng: Number(document.getElementById('lng').value),
+        radius_miles: Number(document.getElementById('radius').value),
+      };
+      await navigator.clipboard.writeText(JSON.stringify(payload, null, 2));
+      alert('Custom payload copied to clipboard.');
+    }
+
+    async function copyCaseJson() {
+      const id = document.getElementById('caseSelect').value;
+      const c = cases.find(x => x.id === id);
+      if (!c) return;
+      await navigator.clipboard.writeText(JSON.stringify(c, null, 2));
+      alert('Eval case JSON copied to clipboard.');
     }
 
     async function runCustom() {
