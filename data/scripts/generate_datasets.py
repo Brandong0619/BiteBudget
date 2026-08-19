@@ -12,6 +12,7 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "datasets"
 ESTIMATE_AS_OF = "2026-08-19"
+PRICE_CHECKED_ON = "2026-08-19"
 
 LOCATIONS = [
     {"name": "Chipotle - Alamo Heights", "chain": "Chipotle", "type": "restaurant",
@@ -60,6 +61,16 @@ LOCATIONS = [
      "address": "2070 N Loop 1604 E, San Antonio, TX 78232", "lat": 29.6123, "lng": -98.4567},
     {"name": "H-E-B - Medical Center", "chain": "H-E-B", "type": "grocery",
      "address": "9940 Wurzbach Rd, San Antonio, TX 78230", "lat": 29.5412, "lng": -98.5634},
+    {"name": "Pasha Mediterranean - Culebra Express", "chain": "Pasha Mediterranean", "type": "restaurant",
+     "address": "10650 Culebra Rd #101, San Antonio, TX 78251", "lat": 29.4721, "lng": -98.6590},
+    {"name": "Pasha Mediterranean - Stone Oak", "chain": "Pasha Mediterranean", "type": "restaurant",
+     "address": "1207 N Loop 1604 W, San Antonio, TX 78258", "lat": 29.5945, "lng": -98.5223},
+    {"name": "Pasha Mediterranean - Medical Center", "chain": "Pasha Mediterranean", "type": "restaurant",
+     "address": "9339 Wurzbach Rd, San Antonio, TX 78240", "lat": 29.5150, "lng": -98.5920},
+    {"name": "Kababchi Grill - Babcock", "chain": "Kababchi", "type": "restaurant",
+     "address": "5500 Babcock Rd Suite 101, San Antonio, TX 78240", "lat": 29.5225, "lng": -98.5968},
+    {"name": "Shisha Cafe & Kababchi - Babcock", "chain": "Kababchi", "type": "restaurant",
+     "address": "5500 Babcock Rd Suite 101, San Antonio, TX 78240", "lat": 29.5226, "lng": -98.5967},
 ]
 
 
@@ -80,6 +91,9 @@ def meal(
     per_serving_price: float | None = None,
     macros_source: str = "chain_nutrition_estimate",
     pitch_wow: bool = False,
+    price_source: str | None = None,
+    price_confidence: str | None = None,
+    price_checked_on: str | None = None,
 ) -> dict:
     row = {
         "location_chain": chain,
@@ -104,7 +118,46 @@ def meal(
         row["per_serving_price"] = round(per_serving_price, 2)
     if pitch_wow:
         row["pitch_wow"] = True
+    if price_source is not None:
+        row["price_source"] = price_source
+    if price_confidence is not None:
+        row["price_confidence"] = price_confidence
+    if price_checked_on is not None:
+        row["price_checked_on"] = price_checked_on
     return row
+
+
+def local_meal(
+    chain: str,
+    order: str,
+    price: float,
+    calories: int,
+    protein: float,
+    carbs: float,
+    fat: float,
+    goals: list[str],
+    *,
+    price_source: str = "official_menu",
+    price_confidence: str = "high",
+    pitch_wow: bool = False,
+    macros_source: str = "local_menu_estimate_2026",
+) -> dict:
+    """Local SA restaurant row with price verification metadata."""
+    return meal(
+        chain,
+        order,
+        price,
+        calories,
+        protein,
+        carbs,
+        fat,
+        goals,
+        macros_source=macros_source,
+        pitch_wow=pitch_wow,
+        price_source=price_source,
+        price_confidence=price_confidence,
+        price_checked_on=PRICE_CHECKED_ON,
+    )
 
 
 def build_restaurant_meals() -> list[dict]:
@@ -329,6 +382,64 @@ def build_restaurant_meals() -> list[dict]:
     ]
     for order, price, cal, p, c, f, goals, wow in subway:
         meals.append(meal("Subway", order, price, cal, p, c, f, goals, pitch_wow=wow))
+
+    # Pasha Mediterranean — gopasha.com menu + DoorDash pickup cross-check (Aug 2026)
+    pasha = [
+        ("One Entree Bowl — chicken shawarma, turmeric rice, chips", 15.99, 620, 38, 58, 18,
+         ["gain_muscle", "maintain"], "official_menu", "high", False),
+        ("OG Shawarma Bowl — half rice, extra veggies", 15.99, 480, 34, 42, 14,
+         ["lose_weight", "gain_muscle"], "official_menu", "high", False),
+        ("Falafel Fuel-Up bowl — hummus, chickpeas, tahini", 15.99, 420, 16, 48, 16,
+         ["maintain", "lose_weight"], "official_menu", "high", False),
+        ("Chicken shawarma wrap — garlic aioli, pickles, light", 15.99, 540, 36, 46, 18,
+         ["gain_muscle", "maintain"], "official_menu", "high", False),
+        ("Mediterranean Chick salad — kabob, feta, light yogurt", 17.99, 380, 32, 22, 16,
+         ["lose_weight", "maintain"], "official_menu", "high", False),
+        ("No-entree bowl — hummus, rice, shirazi, no protein add-on", 11.34, 360, 10, 52, 10,
+         ["maintain", "lose_weight"], "fallback_public", "medium", True),
+        ("Side hummus + pita chips", 6.49, 280, 8, 32, 12,
+         ["maintain", "lose_weight"], "fallback_public", "medium", True),
+        ("Two Entree Bowl — chicken shawarma + koobideh, rice", 18.99, 780, 52, 62, 24,
+         ["gain_muscle"], "official_menu", "high", False),
+        ("Cauli Power Salad — falafel, mushrooms, tahini light", 15.99, 340, 14, 28, 18,
+         ["lose_weight", "maintain"], "official_menu", "high", False),
+        ("OG Shawarma Wrap — chicken, pickled cabbage, cilantro yogurt", 18.99, 560, 38, 48, 20,
+         ["gain_muscle", "maintain"], "official_menu", "high", False),
+    ]
+    for order, price, cal, p, c, f, goals, src, conf, wow in pasha:
+        meals.append(local_meal(
+            "Pasha Mediterranean", order, price, cal, p, c, f, goals,
+            price_source=src, price_confidence=conf, pitch_wow=wow,
+        ))
+
+    # Kababchi Grill — kababchigrill.com / Toast pickup menu (Aug 2026)
+    kababchi = [
+        ("Chicken shawarma sandwich — Mediterranean salad side", 11.99, 480, 34, 42, 16,
+         ["gain_muscle", "maintain"], "official_menu", "high", True),
+        ("Beef kabab (kofta) sandwich — light tahini", 11.99, 520, 30, 38, 22,
+         ["gain_muscle", "maintain"], "official_menu", "high", False),
+        ("Mediterranean salad — dressing on the side", 8.57, 220, 8, 18, 10,
+         ["lose_weight", "maintain"], "official_menu", "high", True),
+        ("Hummus plate — pita on the side", 8.99, 310, 10, 28, 18,
+         ["maintain", "lose_weight"], "official_menu", "high", True),
+        ("Chicken kabab skewer — rice + salad", 11.99, 450, 32, 36, 16,
+         ["gain_muscle"], "official_menu", "high", False),
+        ("Falafel sandwich — tahini, pickles, tomato", 10.99, 420, 14, 46, 18,
+         ["maintain", "lose_weight"], "fallback_public", "medium", False),
+        ("Mixed kabab plate — kofta + tikka, half rice", 20.79, 680, 44, 48, 28,
+         ["gain_muscle"], "official_menu", "high", False),
+        ("Lamb chops plate — salad, no extra rice", 24.99, 620, 42, 12, 38,
+         ["gain_muscle"], "official_pdf", "high", False),
+        ("Tabouli side salad — extra cucumber", 9.87, 180, 4, 22, 8,
+         ["lose_weight", "maintain"], "official_menu", "high", False),
+        ("Chicken tikka plate — half rice portion", 27.29, 540, 46, 38, 18,
+         ["gain_muscle"], "fallback_public", "medium", False),
+    ]
+    for order, price, cal, p, c, f, goals, src, conf, wow in kababchi:
+        meals.append(local_meal(
+            "Kababchi", order, price, cal, p, c, f, goals,
+            price_source=src, price_confidence=conf, pitch_wow=wow,
+        ))
 
     return meals
 

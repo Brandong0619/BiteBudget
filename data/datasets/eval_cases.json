@@ -224,6 +224,51 @@
       "lng": -98.4655,
       "radius_miles": 0.2,
       "expect": {"at_least_one": true, "max_price_with_tax": 12.0, "max_distance_miles": 0.2, "collect_top3_chains": true}
+    },
+    {
+      "id": "local_pasha_culebra_muscle_20",
+      "budget": 20.0,
+      "goal": "gain_muscle",
+      "lat": 29.4721,
+      "lng": -98.6590,
+      "radius_miles": 2.0,
+      "expect": {"at_least_one": true, "max_price_with_tax": 20.0, "max_distance_miles": 2.0, "require_local_chain_top3": "Pasha Mediterranean"}
+    },
+    {
+      "id": "local_pasha_stone_oak_maintain_18",
+      "budget": 18.0,
+      "goal": "maintain",
+      "lat": 29.5945,
+      "lng": -98.5223,
+      "radius_miles": 1.5,
+      "expect": {"at_least_one": true, "max_price_with_tax": 18.0, "max_distance_miles": 1.5, "require_local_chain_top3": "Pasha Mediterranean"}
+    },
+    {
+      "id": "local_pasha_medical_lose_16",
+      "budget": 16.0,
+      "goal": "lose_weight",
+      "lat": 29.5150,
+      "lng": -98.5920,
+      "radius_miles": 1.0,
+      "expect": {"at_least_one": true, "max_price_with_tax": 16.0, "max_distance_miles": 1.0}
+    },
+    {
+      "id": "local_kababchi_babcock_muscle_14",
+      "budget": 14.0,
+      "goal": "gain_muscle",
+      "lat": 29.5225,
+      "lng": -98.5968,
+      "radius_miles": 0.5,
+      "expect": {"at_least_one": true, "max_price_with_tax": 14.0, "max_distance_miles": 0.5, "require_local_chain_top3": "Kababchi"}
+    },
+    {
+      "id": "local_kababchi_babcock_maintain_12",
+      "budget": 12.0,
+      "goal": "maintain",
+      "lat": 29.5226,
+      "lng": -98.5967,
+      "radius_miles": 0.5,
+      "expect": {"at_least_one": true, "max_price_with_tax": 12.0, "max_distance_miles": 0.5, "require_local_chain_top3": "Kababchi"}
     }
   ]
 }

@@ -18,6 +18,13 @@ EXPECTED_CHAINS = {
     "Chick-fil-A",
     "Subway",
 }
+LOCAL_CHAINS = {
+    "Pasha Mediterranean",
+    "Kababchi",
+}
+LOCAL_PRICE_FIELDS = ("price_source", "price_confidence", "price_checked_on")
+LOCAL_PRICE_SOURCES = {"official_menu", "official_pdf", "fallback_public"}
+LOCAL_PRICE_CONFIDENCE = {"high", "medium"}
 
 
 def test_meal_and_grocery_counts():
@@ -32,6 +39,22 @@ def test_all_restaurant_chains_present():
     meals = load_meals()
     chains = {m["location_chain"] for m in meals if m["type"] == "restaurant"}
     assert EXPECTED_CHAINS <= chains
+    assert LOCAL_CHAINS <= chains
+
+
+def test_local_chain_price_metadata():
+    meals = load_meals()
+    local = [
+        m for m in meals
+        if m["type"] == "restaurant" and m["location_chain"] in LOCAL_CHAINS
+    ]
+    assert local, "expected local chain meals"
+    for m in local:
+        for field in LOCAL_PRICE_FIELDS:
+            assert m.get(field), f"{m['location_chain']} missing {field} on {m['order'][:40]}"
+        assert m["price_source"] in LOCAL_PRICE_SOURCES
+        assert m["price_confidence"] in LOCAL_PRICE_CONFIDENCE
+        assert m["price_checked_on"]
 
 
 def test_no_duplicate_orders():

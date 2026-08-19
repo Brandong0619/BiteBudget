@@ -184,6 +184,46 @@
       "address": "9940 Wurzbach Rd, San Antonio, TX 78230",
       "lat": 29.5412,
       "lng": -98.5634
+    },
+    {
+      "name": "Pasha Mediterranean - Culebra Express",
+      "chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "address": "10650 Culebra Rd #101, San Antonio, TX 78251",
+      "lat": 29.4721,
+      "lng": -98.659
+    },
+    {
+      "name": "Pasha Mediterranean - Stone Oak",
+      "chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "address": "1207 N Loop 1604 W, San Antonio, TX 78258",
+      "lat": 29.5945,
+      "lng": -98.5223
+    },
+    {
+      "name": "Pasha Mediterranean - Medical Center",
+      "chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "address": "9339 Wurzbach Rd, San Antonio, TX 78240",
+      "lat": 29.515,
+      "lng": -98.592
+    },
+    {
+      "name": "Kababchi Grill - Babcock",
+      "chain": "Kababchi",
+      "type": "restaurant",
+      "address": "5500 Babcock Rd Suite 101, San Antonio, TX 78240",
+      "lat": 29.5225,
+      "lng": -98.5968
+    },
+    {
+      "name": "Shisha Cafe & Kababchi - Babcock",
+      "chain": "Kababchi",
+      "type": "restaurant",
+      "address": "5500 Babcock Rd Suite 101, San Antonio, TX 78240",
+      "lat": 29.5226,
+      "lng": -98.5967
     }
   ]
 }

@@ -75,3 +75,19 @@ def test_chain_coverage_across_top3():
                 seen.add(row["chain"])
     missing = EXPECTED_CHAINS - seen
     assert not missing, f"chains never in top-3 across suite: {sorted(missing)}"
+
+
+def test_local_chain_top3_eval_cases():
+    errors: list[str] = []
+    for case in _cases():
+        required = case["expect"].get("require_local_chain_top3")
+        if not required:
+            continue
+        debug = recommend_with_debug(
+            case["budget"], case["goal"], case["lat"], case["lng"],
+            case.get("radius_miles", 5.0),
+        )
+        top_chains = {row.get("chain") for row in debug["top_restaurants"]}
+        if required not in top_chains:
+            errors.append(f"{case['id']}: {required} not in top-3 {sorted(top_chains)}")
+    assert errors == []

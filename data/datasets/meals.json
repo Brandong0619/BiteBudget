@@ -1,7 +1,7 @@
 {
   "estimate_as_of": "2026-08-19",
-  "count": 150,
-  "restaurant_count": 95,
+  "count": 170,
+  "restaurant_count": 115,
   "grocery_count": 55,
   "meals": [
     {
@@ -1526,6 +1526,386 @@
       ],
       "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "One Entree Bowl \u2014 chicken shawarma, turmeric rice, chips",
+      "price": 15.99,
+      "calories": 620,
+      "protein_g": 38,
+      "carbs_g": 58,
+      "fat_g": 18,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "OG Shawarma Bowl \u2014 half rice, extra veggies",
+      "price": 15.99,
+      "calories": 480,
+      "protein_g": 34,
+      "carbs_g": 42,
+      "fat_g": 14,
+      "goals": [
+        "lose_weight",
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "Falafel Fuel-Up bowl \u2014 hummus, chickpeas, tahini",
+      "price": 15.99,
+      "calories": 420,
+      "protein_g": 16,
+      "carbs_g": 48,
+      "fat_g": 16,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "Chicken shawarma wrap \u2014 garlic aioli, pickles, light",
+      "price": 15.99,
+      "calories": 540,
+      "protein_g": 36,
+      "carbs_g": 46,
+      "fat_g": 18,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "Mediterranean Chick salad \u2014 kabob, feta, light yogurt",
+      "price": 17.99,
+      "calories": 380,
+      "protein_g": 32,
+      "carbs_g": 22,
+      "fat_g": 16,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "No-entree bowl \u2014 hummus, rice, shirazi, no protein add-on",
+      "price": 11.34,
+      "calories": 360,
+      "protein_g": 10,
+      "carbs_g": 52,
+      "fat_g": 10,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "pitch_wow": true,
+      "price_source": "fallback_public",
+      "price_confidence": "medium",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "Side hummus + pita chips",
+      "price": 6.49,
+      "calories": 280,
+      "protein_g": 8,
+      "carbs_g": 32,
+      "fat_g": 12,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "pitch_wow": true,
+      "price_source": "fallback_public",
+      "price_confidence": "medium",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "Two Entree Bowl \u2014 chicken shawarma + koobideh, rice",
+      "price": 18.99,
+      "calories": 780,
+      "protein_g": 52,
+      "carbs_g": 62,
+      "fat_g": 24,
+      "goals": [
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "Cauli Power Salad \u2014 falafel, mushrooms, tahini light",
+      "price": 15.99,
+      "calories": 340,
+      "protein_g": 14,
+      "carbs_g": 28,
+      "fat_g": 18,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Pasha Mediterranean",
+      "type": "restaurant",
+      "order": "OG Shawarma Wrap \u2014 chicken, pickled cabbage, cilantro yogurt",
+      "price": 18.99,
+      "calories": 560,
+      "protein_g": 38,
+      "carbs_g": 48,
+      "fat_g": 20,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Chicken shawarma sandwich \u2014 Mediterranean salad side",
+      "price": 11.99,
+      "calories": 480,
+      "protein_g": 34,
+      "carbs_g": 42,
+      "fat_g": 16,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "pitch_wow": true,
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Beef kabab (kofta) sandwich \u2014 light tahini",
+      "price": 11.99,
+      "calories": 520,
+      "protein_g": 30,
+      "carbs_g": 38,
+      "fat_g": 22,
+      "goals": [
+        "gain_muscle",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Mediterranean salad \u2014 dressing on the side",
+      "price": 8.57,
+      "calories": 220,
+      "protein_g": 8,
+      "carbs_g": 18,
+      "fat_g": 10,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "pitch_wow": true,
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Hummus plate \u2014 pita on the side",
+      "price": 8.99,
+      "calories": 310,
+      "protein_g": 10,
+      "carbs_g": 28,
+      "fat_g": 18,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "pitch_wow": true,
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Chicken kabab skewer \u2014 rice + salad",
+      "price": 11.99,
+      "calories": 450,
+      "protein_g": 32,
+      "carbs_g": 36,
+      "fat_g": 16,
+      "goals": [
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Falafel sandwich \u2014 tahini, pickles, tomato",
+      "price": 10.99,
+      "calories": 420,
+      "protein_g": 14,
+      "carbs_g": 46,
+      "fat_g": 18,
+      "goals": [
+        "maintain",
+        "lose_weight"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "fallback_public",
+      "price_confidence": "medium",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Mixed kabab plate \u2014 kofta + tikka, half rice",
+      "price": 20.79,
+      "calories": 680,
+      "protein_g": 44,
+      "carbs_g": 48,
+      "fat_g": 28,
+      "goals": [
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Lamb chops plate \u2014 salad, no extra rice",
+      "price": 24.99,
+      "calories": 620,
+      "protein_g": 42,
+      "carbs_g": 12,
+      "fat_g": 38,
+      "goals": [
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_pdf",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Tabouli side salad \u2014 extra cucumber",
+      "price": 9.87,
+      "calories": 180,
+      "protein_g": 4,
+      "carbs_g": 22,
+      "fat_g": 8,
+      "goals": [
+        "lose_weight",
+        "maintain"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "official_menu",
+      "price_confidence": "high",
+      "price_checked_on": "2026-08-19"
+    },
+    {
+      "location_chain": "Kababchi",
+      "type": "restaurant",
+      "order": "Chicken tikka plate \u2014 half rice portion",
+      "price": 27.29,
+      "calories": 540,
+      "protein_g": 46,
+      "carbs_g": 38,
+      "fat_g": 18,
+      "goals": [
+        "gain_muscle"
+      ],
+      "estimate_as_of": "2026-08-19",
+      "macros_source": "local_menu_estimate_2026",
+      "price_source": "fallback_public",
+      "price_confidence": "medium",
+      "price_checked_on": "2026-08-19"
     },
     {
       "location_chain": "H-E-B",

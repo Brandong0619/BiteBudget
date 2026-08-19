@@ -26,6 +26,10 @@ EXPECTED_CHAINS = {
     "Chick-fil-A",
     "Subway",
 }
+LOCAL_CHAINS = {
+    "Pasha Mediterranean",
+    "Kababchi",
+}
 
 
 def main() -> int:
@@ -47,6 +51,16 @@ def main() -> int:
     missing = EXPECTED_CHAINS - chains
     if missing:
         errors.append(f"Missing restaurant chains: {sorted(missing)}")
+    missing_local = LOCAL_CHAINS - chains
+    if missing_local:
+        errors.append(f"Missing local restaurant chains: {sorted(missing_local)}")
+
+    for m in meals:
+        if m["type"] != "restaurant" or m["location_chain"] not in LOCAL_CHAINS:
+            continue
+        for field in ("price_source", "price_confidence", "price_checked_on"):
+            if not m.get(field):
+                errors.append(f"Local meal missing {field}: {m['order'][:50]}")
 
     orders = [m["order"].casefold().strip() for m in meals]
     dupes = [k for k, n in Counter(orders).items() if n > 1]
@@ -94,6 +108,18 @@ def main() -> int:
             for row in debug["top_restaurants"]:
                 if row.get("chain"):
                     top3_chains.add(row["chain"])
+
+        required_local = expect.get("require_local_chain_top3")
+        if required_local:
+            debug = recommend_with_debug(
+                case["budget"], case["goal"], case["lat"], case["lng"],
+                case.get("radius_miles", 5.0),
+            )
+            top_chains = {row.get("chain") for row in debug["top_restaurants"]}
+            if required_local not in top_chains:
+                errors.append(
+                    f"{case['id']}: expected {required_local} in top-3, got {sorted(top_chains)}"
+                )
 
     missing_top3 = EXPECTED_CHAINS - top3_chains
     if missing_top3:
