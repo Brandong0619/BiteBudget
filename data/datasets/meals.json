@@ -1,5 +1,5 @@
 {
-  "estimate_as_of": "2026-08-16",
+  "estimate_as_of": "2026-08-19",
   "count": 150,
   "restaurant_count": 95,
   "grocery_count": 55,
@@ -8,7 +8,7 @@
       "location_chain": "Chipotle",
       "type": "restaurant",
       "order": "Chicken bowl \u2014 white rice, pinto, fajita, salsa, NO cheese/sour cream",
-      "price": 9.8,
+      "price": 9.95,
       "calories": 520,
       "protein_g": 42,
       "carbs_g": 58,
@@ -17,7 +17,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -34,7 +34,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -51,7 +51,7 @@
         "gain_muscle",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -67,7 +67,7 @@
       "goals": [
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -83,7 +83,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -99,7 +99,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -115,7 +115,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -131,7 +131,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -148,7 +148,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -164,7 +164,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -180,7 +180,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
@@ -196,14 +196,14 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chipotle_public_nutrition_2026"
     },
     {
       "location_chain": "Whataburger",
       "type": "restaurant",
       "order": "Grilled chicken sandwich \u2014 no mayo, extra lettuce & tomato",
-      "price": 6.59,
+      "price": 6.69,
       "calories": 390,
       "protein_g": 30,
       "carbs_g": 40,
@@ -213,7 +213,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -230,7 +230,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -247,7 +247,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -263,7 +263,7 @@
       "goals": [
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -278,7 +278,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -293,7 +293,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -309,7 +309,7 @@
         "gain_muscle",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -324,7 +324,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -339,7 +339,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -355,7 +355,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -371,7 +371,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -388,7 +388,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "whataburger_public_nutrition_2026"
     },
     {
@@ -404,7 +404,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -420,7 +420,7 @@
       "goals": [
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -436,7 +436,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -451,7 +451,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -466,7 +466,7 @@
       "goals": [
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -481,7 +481,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -497,7 +497,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -513,7 +513,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -529,7 +529,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -544,7 +544,7 @@
       "goals": [
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -560,7 +560,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -575,7 +575,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -591,7 +591,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -608,7 +608,7 @@
         "gain_muscle",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -624,7 +624,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -640,7 +640,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -655,7 +655,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -670,7 +670,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -685,7 +685,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -703,7 +703,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -718,7 +718,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -734,7 +734,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -750,7 +750,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -766,7 +766,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -782,7 +782,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -799,7 +799,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -816,7 +816,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -832,7 +832,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -847,7 +847,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -864,7 +864,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -880,7 +880,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -895,7 +895,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -911,7 +911,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -927,7 +927,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -943,7 +943,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -958,7 +958,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -976,7 +976,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -993,7 +993,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -1010,7 +1010,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1026,7 +1026,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1042,7 +1042,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1058,7 +1058,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1073,7 +1073,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1089,7 +1089,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1105,7 +1105,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1120,7 +1120,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1136,14 +1136,14 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
       "location_chain": "Chick-fil-A",
       "type": "restaurant",
       "order": "Grilled chicken sandwich \u2014 no butter on bun",
-      "price": 6.79,
+      "price": 6.99,
       "calories": 390,
       "protein_g": 28,
       "carbs_g": 45,
@@ -1153,7 +1153,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -1170,7 +1170,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -1187,7 +1187,7 @@
         "gain_muscle",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -1204,7 +1204,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1220,7 +1220,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1237,7 +1237,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026",
       "pitch_wow": true
     },
@@ -1253,7 +1253,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1269,7 +1269,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1285,7 +1285,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1300,7 +1300,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1316,7 +1316,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1332,7 +1332,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chickfila_public_nutrition_2026"
     },
     {
@@ -1348,7 +1348,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1364,7 +1364,7 @@
         "gain_muscle",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -1381,7 +1381,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -1397,7 +1397,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1413,7 +1413,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1429,7 +1429,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1444,7 +1444,7 @@
       "goals": [
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1460,7 +1460,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1477,7 +1477,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1492,7 +1492,7 @@
       "goals": [
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate",
       "pitch_wow": true
     },
@@ -1508,7 +1508,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1524,7 +1524,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "chain_nutrition_estimate"
     },
     {
@@ -1540,7 +1540,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B dozen large eggs ($2.89)",
@@ -1565,7 +1565,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B rotisserie chicken ($7.98)",
@@ -1591,7 +1591,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Tuna 5oz x2 ($1.98)",
@@ -1616,7 +1616,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B plain Greek yogurt 32oz ($3.99)",
@@ -1642,7 +1642,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Cottage cheese 24oz ($3.49)",
@@ -1666,7 +1666,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Oven roasted turkey 0.5lb ($4.50)",
@@ -1691,7 +1691,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Rolled oats ($2.49)",
@@ -1714,7 +1714,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Flour tortillas ($2.29)",
@@ -1739,7 +1739,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Frozen shrimp 12oz ($6.99)",
@@ -1763,7 +1763,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Chicken breast 1.5lb ($6.50)",
@@ -1788,7 +1788,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Firm tofu ($2.29)",
@@ -1811,7 +1811,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Whole wheat bread ($1.99)",
@@ -1837,7 +1837,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Canned salmon ($3.49)",
@@ -1861,7 +1861,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "H-E-B chili ($2.49)",
@@ -1885,7 +1885,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Hummus ($2.99)",
@@ -1909,7 +1909,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Eggs dozen ($2.89)",
@@ -1933,7 +1933,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Chickpea pasta ($3.49)",
@@ -1958,7 +1958,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Frozen fruit ($2.99)",
@@ -1982,7 +1982,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Microwave rice ($1.49)",
@@ -2008,7 +2008,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Tuna 2 cans ($1.98)",
@@ -2032,7 +2032,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Greek yogurt ($3.99)",
@@ -2056,7 +2056,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Canned lentils ($1.29)",
@@ -2080,7 +2080,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Eggs ($2.89)",
@@ -2104,7 +2104,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Canned chicken ($2.49)",
@@ -2129,7 +2129,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Russet potatoes 5lb ($2.49)",
@@ -2153,7 +2153,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Frozen edamame ($2.29)",
@@ -2177,7 +2177,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Sardines ($1.79)",
@@ -2201,7 +2201,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Corn tortillas ($1.49)",
@@ -2226,7 +2226,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Tortilla chips ($2.29)",
@@ -2250,7 +2250,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Eggs ($2.89)",
@@ -2274,7 +2274,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Fresh mozzarella ($3.49)",
@@ -2297,7 +2297,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Ramen/noodles ($1.29)",
@@ -2321,7 +2321,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Chickpeas can ($0.99)",
@@ -2345,7 +2345,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Greek yogurt ($3.49)",
@@ -2369,7 +2369,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Chicken sausage ($4.99)",
@@ -2394,7 +2394,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Tuna can ($0.99)",
@@ -2419,7 +2419,7 @@
         "gain_muscle",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Whey scoop pack ($3.49)",
@@ -2443,7 +2443,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Eggs ($2.89)",
@@ -2467,7 +2467,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Rotisserie leftovers/pack ($5.49)",
@@ -2491,7 +2491,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Pinto beans ($0.89)",
@@ -2517,7 +2517,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Deli turkey ($2.99)",
@@ -2542,7 +2542,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Chickpea mac ($2.99)",
@@ -2565,7 +2565,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Bread ($1.49)",
@@ -2589,7 +2589,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Canned chicken ($2.49)",
@@ -2613,7 +2613,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Black beans ($0.89)",
@@ -2638,7 +2638,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Deli ham ($2.49)",
@@ -2661,7 +2661,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Frozen burrito ($2.49)",
@@ -2685,7 +2685,7 @@
         "gain_muscle",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Protein cereal ($2.99)",
@@ -2710,7 +2710,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Tuna ($0.99)",
@@ -2736,7 +2736,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Eggs ($2.89)",
@@ -2759,7 +2759,7 @@
       "goals": [
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Greek yogurt ($2.99)",
@@ -2784,7 +2784,7 @@
         "lose_weight",
         "maintain"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Canned chicken ($2.49)",
@@ -2809,7 +2809,7 @@
         "lose_weight",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Zucchini ($1.99)",
@@ -2833,7 +2833,7 @@
         "maintain",
         "lose_weight"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Oats ($1.49)",
@@ -2857,7 +2857,7 @@
         "maintain",
         "gain_muscle"
       ],
-      "estimate_as_of": "2026-08-16",
+      "estimate_as_of": "2026-08-19",
       "macros_source": "heb_public_estimate_2026",
       "items": [
         "Eggs ($1.89)",

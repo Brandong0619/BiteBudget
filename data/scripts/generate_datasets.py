@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / "datasets"
-ESTIMATE_AS_OF = "2026-08-16"
+ESTIMATE_AS_OF = "2026-08-19"
 
 LOCATIONS = [
     {"name": "Chipotle - Alamo Heights", "chain": "Chipotle", "type": "restaurant",
@@ -112,7 +112,7 @@ def build_restaurant_meals() -> list[dict]:
 
     # Pitch-spot-checked Chipotle (public 2026 avg bowl ~$9.80; lean build macros)
     chipotle = [
-        ("Chicken bowl — white rice, pinto, fajita, salsa, NO cheese/sour cream", 9.80, 520, 42, 58, 12,
+        ("Chicken bowl — white rice, pinto, fajita, salsa, NO cheese/sour cream", 9.95, 520, 42, 58, 12,
          ["gain_muscle", "maintain"], True),
         ("Chicken salad — lettuce, black beans, fajita, salsa, NO rice", 9.80, 340, 38, 22, 10,
          ["lose_weight", "maintain"], True),
@@ -143,7 +143,7 @@ def build_restaurant_meals() -> list[dict]:
 
     # Pitch-spot-checked Whataburger (~$6.59 grilled chicken; 430 cal / ~30g protein)
     whataburger = [
-        ("Grilled chicken sandwich — no mayo, extra lettuce & tomato", 6.59, 390, 30, 40, 10,
+        ("Grilled chicken sandwich — no mayo, extra lettuce & tomato", 6.69, 390, 30, 40, 10,
          ["gain_muscle", "maintain", "lose_weight"], True),
         ("Whataburger Jr. — plain, no cheese, no mayo", 4.29, 310, 16, 28, 14,
          ["lose_weight", "maintain"], True),
@@ -276,7 +276,7 @@ def build_restaurant_meals() -> list[dict]:
 
     # Pitch-spot-checked CFA (official grilled sandwich 390 cal / 28g protein; ~$6.49–7.29)
     cfa = [
-        ("Grilled chicken sandwich — no butter on bun", 6.79, 390, 28, 45, 11,
+        ("Grilled chicken sandwich — no butter on bun", 6.99, 390, 28, 45, 11,
          ["gain_muscle", "lose_weight", "maintain"], True),
         ("Grilled nuggets 8-ct — no sauce", 6.49, 130, 25, 1, 3,
          ["lose_weight", "gain_muscle"], True),
